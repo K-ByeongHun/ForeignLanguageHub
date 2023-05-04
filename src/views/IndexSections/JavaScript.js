@@ -101,12 +101,10 @@ export default function JavaScript() {
               <h4 className="title title-up">참가신청</h4>
             </div>
             <div className="modal-body">
-              <pre>
-                학생공지: 2023. 05. 09 (화)
-                큰사넷 학생공지게시판
-                참가신청: 2023. 05 22 (월) 23시까지
-                큰사넷 설문조사 선착순 100명
-              </pre>
+                학생공지: 2023. 05. 09 (화)<br>
+                큰사넷 학생공지게시판<br>
+                참가신청: 2023. 05 22 (월) 23시까지<br>
+                큰사넷 설문조사 선착순 100명<br>
             </div>
             <div className="modal-footer">
               <Button color="default" type="button">
