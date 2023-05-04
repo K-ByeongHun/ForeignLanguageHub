@@ -33,7 +33,7 @@ export default function PageHeader() {
       <Container>
         <div className="content-center brand">
           <h1 className="h1-seo" >충남삼성고등학교</h1>
-          <h1 className="h1-seo2" >외국어과</h1>
+          <h1 className="h1-seo" >외국어과</h1>
           <h3 className="d-none d-sm-block">
             A beautiful Design System for Bootstrap 4 (reactstrap) and React.
             It's Free and Open Source.
