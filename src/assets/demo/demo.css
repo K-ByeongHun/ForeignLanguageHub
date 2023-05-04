@@ -433,6 +433,11 @@
   text-transform: uppercase;
   font-weight: 300;
 }
+.brand .h1-seo2 {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 300;
+}
 
 .brand .n-logo {
   max-width: 100px;
