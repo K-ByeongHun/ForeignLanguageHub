@@ -38,7 +38,7 @@ export default function Navbars() {
     <div className="section section-navbars">
       <img alt="..." className="path" src={require("assets/img/path3.png")} />
       <Container id="menu-dropdown">
-        <Row>
+        /*<Row>
           <Col md="6">
             <h4>Menu</h4>
             <Navbar className="bg-primary" expand="lg">
@@ -200,7 +200,7 @@ export default function Navbars() {
               </Container>
             </Navbar>
           </Col>
-        </Row>
+        </Row>*/
         <h3 className="title mb-3">Navigation</h3>
       </Container>
       <div id="navbar">
