@@ -230,42 +230,7 @@ export default function Navbars() {
           </Navbar>
           {/* End Navbar Danger */}
           {/* Navbar Transparent */}
-          <Navbar className="navbar-transparent" expand="lg">
-            <Container>
-              <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Transparent
-                </NavbarBrand>
-                <button className="navbar-toggler" aria-expanded={false}>
-                  <span className="navbar-toggler-bar bar1" />
-                  <span className="navbar-toggler-bar bar2" />
-                  <span className="navbar-toggler-bar bar3" />
-                </button>
-              </div>
-              <Collapse navbar isOpen={false}>
-                <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-facebook-square" />
-                      Facebook
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-twitter" />
-                      Twitter
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-instagram" />
-                      Instagram
-                    </NavLink>
-                  </NavItem>
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
+  
           {/* End Navbar Transparent*/}
         </div>
       </div>
