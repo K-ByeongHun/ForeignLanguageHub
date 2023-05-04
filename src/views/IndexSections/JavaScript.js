@@ -98,18 +98,15 @@ export default function JavaScript() {
               <button className="close" onClick={() => setDemoModal(false)}>
                 <i className="tim-icons icon-simple-remove" />
               </button>
-              <h4 className="title title-up">Modal title</h4>
+              <h4 className="title title-up">참가신청</h4>
             </div>
             <div className="modal-body">
-              <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts. Separated
-                they live in Bookmarksgrove right at the coast of the Semantics,
-                a large language ocean. A small river named Duden flows by their
-                place and supplies it with the necessary regelialia. It is a
-                paradisematic country, in which roasted parts of sentences fly
-                into your mouth.
-              </p>
+              <pre>
+                학생공지: 2023. 05. 09 (화)
+                큰사넷 학생공지게시판
+                참가신청: 2023. 05 22 (월) 23시까지
+                큰사넷 설문조사 선착순 100명
+              </pre>
             </div>
             <div className="modal-footer">
               <Button color="default" type="button">
