@@ -418,19 +418,18 @@ export default function JavaScript() {
           <Row className="justify-content-between align-items-center">
             <Col className="mb-5 mb-lg-0" lg="5">
               <h1 className="text-white font-weight-light">
-                Bootstrap carousel
+                영어 말하기 Challenge
               </h1>
               <p className="text-white mt-4">
-                Black Design comes with three pre-built pages to help you get
-                started faster. You can change the text and images and you're
-                good to go.
+                세계 공용어인 영어를 더 쉽게 접할 수 있는 기회 "글로벌 미래 인재"에게 필요한 
+                외국어 소통 능력 향상.
               </p>
               <Button
                 className="mt-4"
                 color="warning"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/alert"
+                onClick={() => setDemoModal(true)}
               >
-                See all components
+                참가방법
               </Button>
             </Col>
             <Col lg="6">
