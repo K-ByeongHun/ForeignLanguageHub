@@ -107,8 +107,8 @@ export default function JavaScript() {
               <p>큰사넷 설문조사 선착순 100명</p>
             </div>
             <div className="modal-footer">
-              <Button color="default" type="button">
-                Nice Button
+              <Button color="default" type="button" onclick="window.open('https://student.cnsa.hs.kr/login/userLogin') ">
+                큰사넷 바로가기
               </Button>
               <Button
                 color="danger"
