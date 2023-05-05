@@ -90,7 +90,7 @@ export default function Navbars() {
           {/* Navbar Primary */}
           <Navbar className="bg-primary" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal2(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal2(true)}>
                   세계시민 교육반
                 </NavbarBrand>
