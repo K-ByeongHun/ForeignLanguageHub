@@ -128,6 +128,7 @@ export default function Footer() {
           </Col>
         </Row>
       </Container>
+      Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.
     </footer>
   );
 }
