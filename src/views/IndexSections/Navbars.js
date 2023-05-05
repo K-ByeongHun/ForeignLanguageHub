@@ -247,24 +247,14 @@ export default function Navbars() {
               </div>
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
+                  
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" onClick={() => setDemoModal2(true)}>
                       <i className="tim-icons icon-world" />
-                      Discover
+                      더보기
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="tim-icons icon-single-02" />
-                      Profile
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="tim-icons icon-settings-gear-63" />
-                      Settings
-                    </NavLink>
-                  </NavItem>
+                  
                 </Nav>
               </Collapse>
             </Container>
@@ -273,7 +263,7 @@ export default function Navbars() {
           {/* Navbar Info */}
           <Navbar className="bg-info" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal3(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal3(true)}>
                   영어 저널 제작반 (Write Now)
                 </NavbarBrand>
@@ -286,20 +276,12 @@ export default function Navbars() {
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      Discover
+                    <NavLink href="#pablo" onClick={() => setDemoModal3(true)}>
+                      <i className="tim-icons icon-world" />
+                      더보기
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      Profile
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      Settings
-                    </NavLink>
-                  </NavItem>
+
                 </Nav>
               </Collapse>
             </Container>
@@ -308,7 +290,7 @@ export default function Navbars() {
           {/* Navbar Success */}
           <Navbar className="bg-success" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal4(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal4(true)}>
                   다문화 연구 동아리
                 </NavbarBrand>
@@ -320,21 +302,14 @@ export default function Navbars() {
               </div>
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
+                  
                   <NavItem className="active">
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                    <NavLink href="#pablo" onClick={() => setDemoModal4(true)}>
                       <i className="tim-icons icon-world" />
+                      더보기
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="tim-icons icon-single-02" />
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="tim-icons icon-settings-gear-63" />
-                    </NavLink>
-                  </NavItem>
+
                 </Nav>
               </Collapse>
             </Container>
@@ -343,7 +318,7 @@ export default function Navbars() {
           {/* Navbar Warning */}
           <Navbar className="bg-warning" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal5(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal5(true)}>
                   영어토론반
                 </NavbarBrand>
@@ -355,26 +330,13 @@ export default function Navbars() {
               </div>
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-facebook-square" />
+                  <NavItem className="active">
+                    <NavLink href="#pablo" onClick={() => setDemoModal5(true)}>
+                      <i className="tim-icons icon-world" />
+                      더보기
                     </NavLink>
                   </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-twitter" />
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-google-plus" />
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-instagram" />
-                    </NavLink>
-                  </NavItem>
+
                 </Nav>
               </Collapse>
             </Container>
@@ -383,7 +345,7 @@ export default function Navbars() {
           {/* Navbar Danger */}
           <Navbar className="bg-danger" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal6(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal6(true)}>
                   영미문학동아리
                 </NavbarBrand>
@@ -395,22 +357,10 @@ export default function Navbars() {
               </div>
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-facebook-square" />
-                      Share
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-twitter" />
-                      Tweet
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-pinterest" />
-                      Pin
+                  <NavItem className="active">
+                    <NavLink href="#pablo" onClick={() => setDemoModal6(true)}>
+                      <i className="tim-icons icon-world" />
+                      더보기
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -419,7 +369,7 @@ export default function Navbars() {
           </Navbar>
           <Navbar className="bg-info" expand="lg">
             <Container>
-              <div className="navbar-translate">
+              <div className="navbar-translate" onClick={() => setDemoModal7(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal7(true)}>
                   영어 동화책 창작반
                 </NavbarBrand>
@@ -431,22 +381,10 @@ export default function Navbars() {
               </div>
               <Collapse navbar isOpen={false}>
                 <Nav className="ml-auto" navbar>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-facebook-square" />
-                      Share
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-twitter" />
-                      Tweet
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
-                      <i className="fab fa-pinterest" />
-                      Pin
+                  <NavItem className="active">
+                    <NavLink href="#pablo" onClick={() => setDemoModal7(true)}>
+                      <i className="tim-icons icon-world" />
+                      더보기
                     </NavLink>
                   </NavItem>
                 </Nav>
