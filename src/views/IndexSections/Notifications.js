@@ -25,13 +25,7 @@ export default function Notifications() {
       <Container>
         <div className="space" />
         <h3>Notifications</h3>
-        <UncontrolledAlert className="alert-with-icon" color="primary">
-          <span data-notify="icon" className="tim-icons icon-coins" />
-          <span>
-            <b>Congrats! -</b>
-            This is a regular notification made with ".alert-primary"
-          </span>
-        </UncontrolledAlert>
+        
         <UncontrolledAlert className="alert-with-icon" color="primary">
           <span data-notify="icon" className="tim-icons icon-trophy" />
           <span>
@@ -49,20 +43,7 @@ export default function Notifications() {
             큰사넷 설문조사 선착순 100명
           </span>
         </UncontrolledAlert>
-        <UncontrolledAlert className="alert-with-icon" color="warning">
-          <span data-notify="icon" className="tim-icons icon-bulb-63" />
-          <span>
-            <b>Warning! -</b>
-            This is a regular notification made with ".alert-warning"
-          </span>
-        </UncontrolledAlert>
-        <UncontrolledAlert className="alert-with-icon" color="danger">
-          <span data-notify="icon" className="tim-icons icon-support-17" />
-          <span>
-            <b>Oh snap! -</b>
-            This is a regular notification made with ".alert-danger"
-          </span>
-        </UncontrolledAlert>
+        
       </Container>
     </div>
   );
