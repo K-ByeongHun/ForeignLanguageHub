@@ -73,7 +73,7 @@ export default function Typography() {
               <div className="typography-line">
                 <span>3월~12월</span>
                 <p className="text-success">
-                  영단어 암기 아보카
+                  영단어 암기 아보카도
                 </p>
               </div>
             </Col>
@@ -83,28 +83,7 @@ export default function Typography() {
         <div id="images">
           <h3 className="mb-5">Images</h3>
           <Row>
-            <Col sm="3" xs="6">
-              <small className="d-block text-uppercase font-weight-bold mb-4">
-                Image
-              </small>
-              <img
-                alt="..."
-                className="img-fluid rounded shadow"
-                src={require("assets/img/ryan.jpg")}
-                style={{ width: "150px" }}
-              />
-            </Col>
-            <Col sm="3" xs="6">
-              <small className="d-block text-uppercase font-weight-bold mb-4">
-                Circle Image
-              </small>
-              <img
-                alt="..."
-                className="img-fluid rounded-circle shadow"
-                src={require("assets/img/james.jpg")}
-                style={{ width: "150px" }}
-              />
-            </Col>
+        
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
                 Raised
@@ -116,17 +95,43 @@ export default function Typography() {
                 style={{ width: "150px" }}
               />
             </Col>
+            
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Circle Raised
+                Raised
               </small>
               <img
                 alt="..."
-                className="img-fluid rounded-circle shadow-lg"
-                src={require("assets/img/mike.jpg")}
+                className="img-fluid rounded shadow-lg"
+                src={require("assets/img/lora.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
+            
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded shadow-lg"
+                src={require("assets/img/lora.jpg")}
+                style={{ width: "150px" }}
+              />
+            </Col>
+            
+            <Col className="mt-5 mt-sm-0" sm="3" xs="6">
+              <small className="d-block text-uppercase font-weight-bold mb-4">
+                Raised
+              </small>
+              <img
+                alt="..."
+                className="img-fluid rounded shadow-lg"
+                src={require("assets/img/lora.jpg")}
+                style={{ width: "150px" }}
+              />
+            </Col>
+           
           </Row>
         </div>
       </Container>
