@@ -32,7 +32,7 @@ export default function Notifications() {
             This is a regular notification made with ".alert-primary"
           </span>
         </UncontrolledAlert>
-        <UncontrolledAlert className="alert-with-icon" color="info">
+        <UncontrolledAlert className="alert-with-icon" color="primary">
           <span data-notify="icon" className="tim-icons icon-trophy" />
           <span>
             <b>제1회 영어 말하기 Challenge 진행 -</b>
