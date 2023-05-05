@@ -61,6 +61,14 @@ const carouselItems = [
 
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
+  
+  const [demoModal2, setDemoModal2] = React.useState(false);
+  const [demoModal3, setDemoModal3] = React.useState(false);
+  const [demoModal4, setDemoModal4] = React.useState(false);
+  const [demoModal5, setDemoModal5] = React.useState(false);
+  const [demoModal6, setDemoModal6] = React.useState(false);
+  const [demoModal7, setDemoModal7] = React.useState(false);  
+  
   const [miniModal, setMiniModal] = React.useState(false);
   const [formModal, setFormModal] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
