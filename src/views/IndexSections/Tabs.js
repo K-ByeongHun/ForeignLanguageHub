@@ -130,6 +130,7 @@ export default function Tabs() {
           </Col>
         </Row>
       </Container>
+      <iframe src="https://cnsa-fld-wordgame.netlify.app/" title="" name="frame" width="100%" height="580px"></iframe>
     </div>
   );
 }
