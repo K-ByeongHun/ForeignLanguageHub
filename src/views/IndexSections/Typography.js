@@ -29,117 +29,58 @@ export default function Typography() {
         src={require("assets/img/path3.png")}
       />
       <Container>
-        <h3 className="title">Typography</h3>
+        <h3 className="title"외국어과</h3>
         <div id="typography">
           <Row>
             <Col md="12">
-              <div className="typography-line">
-                <h1>
-                  <span>Header 1</span>
-                  The Life of BLK• Design System React
-                </h1>
-              </div>
-              <div className="typography-line">
-                <h2>
-                  <span>Header 2</span>
-                  The Life of BLK• Design System React
-                </h2>
-              </div>
-              <div className="typography-line">
-                <h3>
-                  <span>Header 3</span>
-                  The Life of BLK• Design System React
-                </h3>
-              </div>
+              
               <div className="typography-line">
                 <h4>
-                  <span>Header 4</span>
-                  The Life of BLK• Design System React
+                  <span>외국어과</span>
+                  <p>외국어학과는 영어, 중국어, 일본어 교과로 구성되어 있습니다.</p>
+                  <p>시계 시민으로서 리더십과 책임의식을 고양시키기 위해, 외국어의 정치·경제·문화에 
+                  대한 호기심을 바탕으로 이문화에 대한 이해도를 높이고 미래 역량 4Cs (4Cs: Communication, 
+                  Cooperation, Creativity, Critical Thinking)를 활용하여 수업을 실시합니다.</p>
+                  <p>또한, 유창한 1학년, 정확성과 유창성이 함께 발전하는 2학년, 정확한 언어 능력으로 진로 
+                  희망에 한 발짝 더 다가가는 3학년이 될 수 있도록 위계가 있으며 체계적인 외국어 수업을 위해, 
+                  원어민교사를 포함한 외국어과 교사들이 다양한 노력을하고 있습니다.</p>
                 </h4>
               </div>
+
               <div className="typography-line">
-                <h5>
-                  <span>Header 5</span>
-                  The Life of BLK• Design System React
-                </h5>
-              </div>
-              <div className="typography-line">
-                <h6>
-                  <span>Header 6</span>
-                  The Life of BLK• Design System React
-                </h6>
-              </div>
-              <div className="typography-line">
-                <p>
-                  <span>Paragraph</span>I will be the leader of a company that
-                  ends up being worth billions of dollars, because I got the
-                  answers. I understand culture. I am the nucleus. I think
-                  that’s a responsibility that I have, to push possibilities, to
-                  show people, this is the level that things could be at.
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Quote</span>
-                <blockquote>
-                  <p className="blockquote blockquote-info">
-                    "I will be the leader of a company that ends up being worth
-                    billions of dollars, because I got the answers. I understand
-                    culture. I am the nucleus. I think that’s a responsibility
-                    that I have, to push possibilities, to show people, this is
-                    the level that things could be at." <br />
-                    <br />
-                    <small>- Noaa</small>
-                  </p>
-                </blockquote>
-              </div>
-              <div className="typography-line">
-                <span>Muted Text</span>
+                <span>학과 행사</span>
                 <p className="text-muted">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
+                  
                 </p>
               </div>
               <div className="typography-line">
-                <span>Primary Text</span>
+                <span>5월</span>
                 <p className="text-primary">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
+                  영어 말하기 Challenge
                 </p>
               </div>
               <div className="typography-line">
-                <span>Info Text</span>
+                <span>9월</span>
                 <p className="text-info">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
+                  영어 토론 대회
                 </p>
               </div>
+              
               <div className="typography-line">
-                <span>Success Text</span>
-                <p className="text-success">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
-              </div>
-              <div className="typography-line">
-                <span>Warning Text</span>
+                <span>11월</span>
                 <p className="text-warning">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
+                  중국문화 탐구대회
+                </p>
+                <p className="text-warning">
+                  일본어 더빙대회
                 </p>
               </div>
+              
               <div className="typography-line">
-                <span>Danger Text</span>
-                <p className="text-danger">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
+                <span>3월~12월</span>
+                <p className="text-success">
+                  영단어 암기 아보카
                 </p>
-              </div>
-              <div className="typography-line">
-                <h2>
-                  <span>Small Tag</span>
-                  Header with small subtitle <br />
-                  <small>Use "small" tag for the headers</small>
-                </h2>
               </div>
             </Col>
           </Row>
