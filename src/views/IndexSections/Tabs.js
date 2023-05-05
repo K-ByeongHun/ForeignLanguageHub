@@ -39,7 +39,7 @@ export default function Tabs() {
     <div className="section section-tabs">
       <Container>
         <div className="title">
-          <h3 className="mb-3">Navigation Tabs</h3>
+          <h3 className="mb-3">Word Game</h3>
         </div>
         <Row>
           
