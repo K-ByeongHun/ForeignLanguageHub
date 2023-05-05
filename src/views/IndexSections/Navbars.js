@@ -228,7 +228,7 @@ export default function Navbars() {
               </Collapse>
             </Container>
           </Navbar>
-          <Navbar className="bg-danger" expand="lg">
+          <Navbar className="bg-info" expand="lg">
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
