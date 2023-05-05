@@ -46,7 +46,7 @@ export default function Tabs() {
           <Col className="ml-auto mr-auto" md="10" xl="6">
             <div className="mb-3">
               <small className="text-uppercase font-weight-bold">
-                영단어 임게임
+                영단어 활용 게임
               </small>
             </div>
             <Card>
