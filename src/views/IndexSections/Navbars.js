@@ -91,7 +91,7 @@ export default function Navbars() {
           <Navbar className="bg-primary" expand="lg">
             <Container>
               <div className="navbar-translate">
-                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                <NavbarBrand href="#pablo" onClick={() => setDemoModal2(true)}>
                   세계시민 교육반
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false} onClick={() => setDemoModal2(true)}>
