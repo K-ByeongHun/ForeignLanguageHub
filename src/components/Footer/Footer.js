@@ -64,22 +64,22 @@ export default function Footer() {
           <Col md="3">
             <Nav>
               <NavItem>
-                <NavLink href="https://creative-tim.com/contact-us?ref=blkdsr-footer">
-                  Contact Us
+                <NavLink href="">
+                  Global Ambassador
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/about-us?ref=blkdsr-footer">
-                  About Us
+                <NavLink href="">
+                  8기 안철민 제작
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://creative-tim.com/blog?ref=blkdsr-footer">
+                <NavLink href="">
                   Blog
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://opensource.org/licenses/MIT">
+                <NavLink href="">
                   License
                 </NavLink>
               </NavItem>
