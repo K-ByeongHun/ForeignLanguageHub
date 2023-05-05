@@ -103,7 +103,7 @@ export default function Typography() {
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/p2.jpg")}
+                src={require("assets/img/p22.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
