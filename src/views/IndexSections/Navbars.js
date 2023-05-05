@@ -30,6 +30,8 @@ import {
   Nav,
   Container,
   Row,
+  Button,
+  Modal,
   Col
 } from "reactstrap";
 
