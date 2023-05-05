@@ -121,55 +121,9 @@ export default function IndexNavbar() {
             </Row>
           </div>
           <Nav navbar>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fab fa-twitter" />
-                <p className="d-lg-none d-xl-none">Twitter</p>
-              </NavLink>
-            </NavItem>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fab fa-facebook-square" />
-                <p className="d-lg-none d-xl-none">Facebook</p>
-              </NavLink>
-            </NavItem>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Follow us on Instagram"
-              >
-                <i className="fab fa-instagram" />
-                <p className="d-lg-none d-xl-none">Instagram</p>
-              </NavLink>
-            </NavItem>
-            <UncontrolledDropdown nav>
-              <DropdownToggle
-                caret
-                color="default"
-                data-toggle="dropdown"
-                href="#pablo"
-                nav
-                onClick={(e) => e.preventDefault()}
-              >
-                <i className="fa fa-cogs d-lg-none d-xl-none" />
-                Getting started
-              </DropdownToggle>
-            </UncontrolledDropdown>
+            
+            
+            
             <NavItem>
               <Button
                 className="nav-link d-none d-lg-block"
@@ -177,7 +131,7 @@ export default function IndexNavbar() {
                 target="_blank"
                 href="https://student.cnsa.hs.kr"
               >
-                <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                <i className="tim-icons icon-spaceship" /> 큰사넷 바로가기
               </Button>
             </NavItem>
             <NavItem>
