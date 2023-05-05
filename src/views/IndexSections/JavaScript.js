@@ -233,7 +233,7 @@ export default function JavaScript() {
       <div className="section">
         <Container>
           <div className="title">
-            <h3>otification</h3>
+            <h3></h3>
           </div>
           <Row className="justify-content-between align-items-center">
             <Col className="mb-5 mb-lg-0" lg="5">
