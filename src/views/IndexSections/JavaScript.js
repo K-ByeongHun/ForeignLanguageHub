@@ -226,7 +226,7 @@ export default function JavaScript() {
             </div>
           </Modal>
           {/* End Form Modal */}
-        </Row>
+        
         <br />
         <br />
       </Container>
