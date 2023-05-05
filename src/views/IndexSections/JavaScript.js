@@ -74,7 +74,7 @@ export default function JavaScript() {
         src={require("assets/img/path5.png")}
       />
       <Container>
-        <h3 className="title mb-5">Javascript components</h3>
+        <h3 className="title mb-5"></h3>
           {/* Sart Demo Modal */}
           <Modal isOpen={demoModal} toggle={() => setDemoModal(false)}>
             <div className="modal-header justify-content-center">
