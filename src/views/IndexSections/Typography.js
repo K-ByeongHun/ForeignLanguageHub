@@ -36,7 +36,7 @@ export default function Typography() {
               
               <div className="typography-line">
                 <h4>
-                  <span>외국어과</span>
+                  <span>Information</span>
                   <p>외국어학과는 영어, 중국어, 일본어 교과로 구성되어 있습니다.</p>
                   <p>시계 시민으로서 리더십과 책임의식을 고양시키기 위해, 외국어의 정치·경제·문화에 
                   대한 호기심을 바탕으로 이문화에 대한 이해도를 높이고 미래 역량 4Cs (4Cs: Communication, 
@@ -47,12 +47,6 @@ export default function Typography() {
                 </h4>
               </div>
 
-              <div className="typography-line">
-                <span>학과 행사</span>
-                <p className="text-muted">
-                  
-                </p>
-              </div>
               <div className="typography-line">
                 <span>5월</span>
                 <p className="text-primary">
