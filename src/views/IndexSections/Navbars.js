@@ -48,7 +48,7 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Primary color
+                  세계시민 교육반
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
@@ -86,7 +86,7 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Info Color
+                  영어 저널 제작반 (Write Now)
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
@@ -121,7 +121,7 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Success Color
+                  다문화 연구 동아리
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
@@ -156,7 +156,7 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Warning Color
+                  영어토론반
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
@@ -196,7 +196,43 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate">
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-                  Danger Color
+                  영미문학동아리
+                </NavbarBrand>
+                <button className="navbar-toggler" aria-expanded={false}>
+                  <span className="navbar-toggler-bar bar1" />
+                  <span className="navbar-toggler-bar bar2" />
+                  <span className="navbar-toggler-bar bar3" />
+                </button>
+              </div>
+              <Collapse navbar isOpen={false}>
+                <Nav className="ml-auto" navbar>
+                  <NavItem>
+                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fab fa-facebook-square" />
+                      Share
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fab fa-twitter" />
+                      Tweet
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink href="#pablo" onClick={(e) => e.preventDefault()}>
+                      <i className="fab fa-pinterest" />
+                      Pin
+                    </NavLink>
+                  </NavItem>
+                </Nav>
+              </Collapse>
+            </Container>
+          </Navbar>
+          <Navbar className="bg-danger" expand="lg">
+            <Container>
+              <div className="navbar-translate">
+                <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+                  영어 동화책 창작반
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
