@@ -43,41 +43,41 @@ export default function Navbars() {
   const [demoModal7, setDemoModal7] = React.useState(false);  
 
 
-  return (
-  
-    <Modal isOpen={demoModal2} toggle={() => setDemoModal2(false)}>
-      <div className="modal-header justify-content-center">
-        <button className="close" onClick={() => setDemoModal2(false)}>
-          <i className="tim-icons icon-simple-remove" />
-        </button>
-        <h4 className="title title-up">세계시민 교육반</h4>
-      </div>
-      <div className="modal-body">
-        <p>
-        - (목표) SDGs 관련 다양한 캠페인 활동을 통해 세계시민으로서의 
-        협력 및 의사소통 능력을 기르며 다른 동아리와 연계하여 세계 시민 
-        이슈관련 공연 활동에 적극 참여한다. 
-        </p>
-        <p>
-        - (특징) 글로벌 이슈와 관련하여 봉사활동, 강의, 체험학습 등에 적극 참여 한다.
-        </p>
-      </div>
-      <div className="modal-footer">
-        <Button color="default" type="button">
-          Nice Button
-        </Button>
-        <Button
-          color="danger"
-          type="button"
-          onClick={() => setDemoModal2(false)}
-        >
-          Close
-        </Button>
-      </div>
-    </Modal>          
-  
-  
+  return (       
     <div className="section section-navbars">
+    
+      <Modal isOpen={demoModal2} toggle={() => setDemoModal2(false)}>
+        <div className="modal-header justify-content-center">
+          <button className="close" onClick={() => setDemoModal2(false)}>
+            <i className="tim-icons icon-simple-remove" />
+          </button>
+          <h4 className="title title-up">세계시민 교육반</h4>
+        </div>
+        <div className="modal-body">
+          <p>
+          - (목표) SDGs 관련 다양한 캠페인 활동을 통해 세계시민으로서의 
+          협력 및 의사소통 능력을 기르며 다른 동아리와 연계하여 세계 시민 
+          이슈관련 공연 활동에 적극 참여한다. 
+          </p>
+          <p>
+          - (특징) 글로벌 이슈와 관련하여 봉사활동, 강의, 체험학습 등에 적극 참여 한다.
+          </p>
+        </div>
+        <div className="modal-footer">
+          <Button color="default" type="button">
+            Nice Button
+          </Button>
+          <Button
+            color="danger"
+            type="button"
+            onClick={() => setDemoModal2(false)}
+          >
+            Close
+          </Button>
+        </div>
+      </Modal>   
+    
+    
       <img alt="..." className="path" src={require("assets/img/path3.png")} />
       <Container id="menu-dropdown">
         
