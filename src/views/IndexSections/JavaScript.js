@@ -75,8 +75,6 @@ export default function JavaScript() {
       />
       <Container>
         <h3 className="title mb-5">Javascript components</h3>
-        
-          </Col>
           {/* Sart Demo Modal */}
           <Modal isOpen={demoModal} toggle={() => setDemoModal(false)}>
             <div className="modal-header justify-content-center">
@@ -231,9 +229,6 @@ export default function JavaScript() {
         </Row>
         <br />
         <br />
-          
-          
-        </Row>
       </Container>
       <div className="section">
         <Container>
