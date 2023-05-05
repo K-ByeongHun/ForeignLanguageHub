@@ -35,15 +35,18 @@ export default function Notifications() {
         <UncontrolledAlert className="alert-with-icon" color="info">
           <span data-notify="icon" className="tim-icons icon-trophy" />
           <span>
-            <b>Heads up! -</b>
-            This is a regular notification made with ".alert-info"
+            <b>제1회 영어 말하기 Challenge 진행 -</b>
+            <p>일시: 2023. 5. 25 (목)</p>
+            <p>대상: 전학년 (선착순 100명)</p>
+            <p>장소: 갤럭시홀 & N401 계단식 강의실</p>
+            <p>신청: 2023. 5. 22 (월) 23시까지 큰사넷 설문조사</p>
           </span>
         </UncontrolledAlert>
         <UncontrolledAlert className="alert-with-icon" color="success">
           <span data-notify="icon" className="tim-icons icon-bell-55" />
           <span>
-            <b>Well done! -</b>
-            This is a regular notification made with ".alert-success"
+            <b>영어 말하기 Challenge 선착순! -</b>
+            큰사넷 설문조사 선착순 100명
           </span>
         </UncontrolledAlert>
         <UncontrolledAlert className="alert-with-icon" color="warning">
