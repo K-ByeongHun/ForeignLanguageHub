@@ -50,7 +50,7 @@ export default function Navbars() {
                 <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
                   세계시민 교육반
                 </NavbarBrand>
-                <button className="navbar-toggler" aria-expanded={false}>
+                <button className="navbar-toggler" aria-expanded={false} onClick={() => setDemoModal(true)}>
                   <span className="navbar-toggler-bar bar1" />
                   <span className="navbar-toggler-bar bar2" />
                   <span className="navbar-toggler-bar bar3" />
