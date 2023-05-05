@@ -251,6 +251,13 @@ export default function JavaScript() {
               >
                 참가방법
               </Button>
+              <div className="typography-line">
+                        <span>Info Text</span>
+                        <p className="text-info">
+                          I will be the leader of a company that ends up being worth
+                          billions of dollars, because I got the answers...
+                        </p>
+              </div>
             </Col>
             <Col lg="6">
               <UncontrolledCarousel
@@ -261,13 +268,6 @@ export default function JavaScript() {
             </Col>
           </Row>
         </Container>
-      </div>
-      <div className="typography-line">
-                <span>Info Text</span>
-                <p className="text-info">
-                  I will be the leader of a company that ends up being worth
-                  billions of dollars, because I got the answers...
-                </p>
       </div>
     </div>
   );
