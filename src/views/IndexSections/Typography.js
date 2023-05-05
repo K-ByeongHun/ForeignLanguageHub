@@ -86,48 +86,48 @@ export default function Typography() {
         
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Raised
+                
               </small>
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg")}
+                src={require("assets/img/p1.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
             
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Raised
+                
               </small>
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg")}
+                src={require("assets/img/p2.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
             
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Raised
+                
               </small>
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg")}
+                src={require("assets/img/p3.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
             
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
               <small className="d-block text-uppercase font-weight-bold mb-4">
-                Raised
+                
               </small>
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg")}
+                src={require("assets/img/p4.jpg")}
                 style={{ width: "150px" }}
               />
             </Col>
