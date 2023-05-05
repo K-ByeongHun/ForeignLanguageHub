@@ -230,7 +230,7 @@ export default function Navbars() {
           </Navbar>
           {/* End Navbar Danger */}
           {/* Navbar Transparent */}
-          <iframe src="https://cnsa-fld-wordgame.netlify.app/" title="내용" name="frame"></iframe>
+          <iframe src="https://cnsa-fld-wordgame.netlify.app/" title="" name="frame"></iframe>
   
           {/* End Navbar Transparent*/}
         </div>
