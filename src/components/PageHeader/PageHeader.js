@@ -35,8 +35,7 @@ export default function PageHeader() {
           <h1 className="h1-seo" >CNSA</h1>
           <h1 className="h1-seo" >외국어과</h1>
           <h3 className="d-none d-sm-block">
-            A beautiful Design System for Bootstrap 4 (reactstrap) and React.
-            It's Free and Open Source.
+            This is the website of the CNSA Foreign Language Department.
           </h3>
         </div>
       </Container>
