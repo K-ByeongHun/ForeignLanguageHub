@@ -46,7 +46,7 @@ export default function Tabs() {
           <Col className="ml-auto mr-auto" md="10" xl="6">
             <div className="mb-3">
               <small className="text-uppercase font-weight-bold">
-                With text
+                영단어 임게임
               </small>
             </div>
             <Card>
@@ -82,7 +82,7 @@ export default function Tabs() {
                       onClick={(e) => setTextTabs(6)}
                       href="#pablo"
                     >
-                      Options
+                      More
                     </NavLink>
                   </NavItem>
                 </Nav>
@@ -134,13 +134,7 @@ export default function Tabs() {
                   </TabPane>
                   <TabPane tabId="link6">
                     <p>
-                      I think that’s a responsibility that I have, to push
-                      possibilities, to show people, this is the level that
-                      things could be at. So when you get something that has the
-                      name Kanye West on it, it’s supposed to be pushing the
-                      furthest possibilities. I will be the leader of a company
-                      that ends up being worth billions of dollars, because I
-                      got the answers. I understand culture. I am the nucleus.
+                      매달 새로운 영단어 게임이 업데이트 됩니다. 
                     </p>
                   </TabPane>
                 </TabContent>
