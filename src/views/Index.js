@@ -52,8 +52,8 @@ export default function Index() {
       <div className="wrapper">
         <PageHeader />
         <div className="main">
-          <JavaScript />
           <Notifications />
+          <JavaScript />
           <Navbars />
           <Tabs />
           <Pagination />
