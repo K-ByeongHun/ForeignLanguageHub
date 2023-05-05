@@ -62,12 +62,7 @@ const carouselItems = [
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
   
-  const [demoModal2, setDemoModal2] = React.useState(false);
-  const [demoModal3, setDemoModal3] = React.useState(false);
-  const [demoModal4, setDemoModal4] = React.useState(false);
-  const [demoModal5, setDemoModal5] = React.useState(false);
-  const [demoModal6, setDemoModal6] = React.useState(false);
-  const [demoModal7, setDemoModal7] = React.useState(false);  
+
   
   const [miniModal, setMiniModal] = React.useState(false);
   const [formModal, setFormModal] = React.useState(false);
@@ -143,36 +138,7 @@ export default function JavaScript() {
             </div>
           </Modal>
           
-          <Modal isOpen={demoModal2} toggle={() => setDemoModal2(false)}>
-            <div className="modal-header justify-content-center">
-              <button className="close" onClick={() => setDemoModal2(false)}>
-                <i className="tim-icons icon-simple-remove" />
-              </button>
-              <h4 className="title title-up">세계시민 교육반</h4>
-            </div>
-            <div className="modal-body">
-              <p>
-              - (목표) SDGs 관련 다양한 캠페인 활동을 통해 세계시민으로서의 
-              협력 및 의사소통 능력을 기르며 다른 동아리와 연계하여 세계 시민 
-              이슈관련 공연 활동에 적극 참여한다. 
-              </p>
-              <p>
-              - (특징) 글로벌 이슈와 관련하여 봉사활동, 강의, 체험학습 등에 적극 참여 한다.
-              </p>
-            </div>
-            <div className="modal-footer">
-              <Button color="default" type="button">
-                Nice Button
-              </Button>
-              <Button
-                color="danger"
-                type="button"
-                onClick={() => setDemoModal2(false)}
-              >
-                Close
-              </Button>
-            </div>
-          </Modal>          
+
           
           
           {/* End Mini Modal */}
