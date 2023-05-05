@@ -455,8 +455,6 @@ export default function Navbars() {
           </Navbar>
           {/* End Navbar Danger */}
           {/* Navbar Transparent */}
-          <iframe src="https://cnsa-fld-wordgame.netlify.app/" title="" name="frame" width="100%" height="550px"></iframe>
-  
           {/* End Navbar Transparent*/}
         </div>
       </div>
