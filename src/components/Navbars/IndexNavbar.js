@@ -131,7 +131,7 @@ export default function IndexNavbar() {
                 target="_blank"
                 href="https://student.cnsa.hs.kr"
               >
-                <i className="tim-icons icon-spaceship" /> 큰사넷 바로가기
+                <i className="tim-icons icon-spaceship" />CNSAnet 바로가기
               </Button>
             </NavItem>
             <NavItem>
