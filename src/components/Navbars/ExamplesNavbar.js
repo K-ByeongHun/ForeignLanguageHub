@@ -97,7 +97,7 @@ export default function ExamplesNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  CNSA 외국어과
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
