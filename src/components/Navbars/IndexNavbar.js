@@ -130,7 +130,7 @@ export default function IndexNavbar() {
                 target="_blank"
                 title=""
               >
-                <i className="fab fa-twitter" />
+                <img src="https://modo-phinf.pstatic.net/20220405_275/1649131055107XYdbL_PNG/mosa7r46j7.png" width="10" height="10">
                 <p className="d-lg-none d-xl-none">큰사넷 바로가기</p>
               </NavLink>
             </NavItem>
