@@ -121,7 +121,19 @@ export default function IndexNavbar() {
             </Row>
           </div>
           <Nav navbar>
-            
+          
+            <NavItem className="p-0">
+              <NavLink
+                data-placement="bottom"
+                href="https://student.cnsa.hs.kr"
+                rel="noopener noreferrer"
+                target="_blank"
+                title=""
+              >
+                <i className="fab fa-twitter" />
+                <p className="d-lg-none d-xl-none">큰사넷 바로가기</p>
+              </NavLink>
+            </NavItem>
             
             
             <NavItem>
