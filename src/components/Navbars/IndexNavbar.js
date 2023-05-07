@@ -146,15 +146,7 @@ export default function IndexNavbar() {
                 <i className="tim-icons icon-spaceship" />CNSAnet 바로가기
               </Button>
             </NavItem>
-            <NavItem>
-              <Button
-                className="nav-link d-none d-lg-block"
-                color="default"
-                onClick={scrollToDownload}
-              >
-                <i className="tim-icons icon-cloud-download-93" /> Download
-              </Button>
-            </NavItem>
+            
           </Nav>
         </Collapse>
       </Container>
