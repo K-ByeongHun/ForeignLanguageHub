@@ -78,6 +78,37 @@
         {alert('[마우스 오른쪽 클릭] / [컨트롤] / [F12] 금지 입니다.');}
     }
     document.onmousedown=click;
+      
+      function() {
+        function detectDevTool(allow) {
+          if(isNaN(+allow)) allow = 100;
+          var start = +new Date(); 
+          debugger;
+          var end = +new Date(); 
+          if(isNaN(start) || isNaN(end) || end - start > allow) {
+            // 개발자 도구가 open 된것을 감지했을때 실행할 코드 삽입
+            alert('개발자 도구가 감지되었습니다!');
+            document.location.href="https://www.tistory.com/";
+          }
+        }
+        if(window.attachEvent) {
+          if (document.readyState === "complete" || document.readyState === "interactive") {
+              detectDevTool();
+            window.attachEvent('onresize', detectDevTool);
+            window.attachEvent('onmousemove', detectDevTool);
+            window.attachEvent('onfocus', detectDevTool);
+            window.attachEvent('onblur', detectDevTool);
+          } else {
+              setTimeout(argument.callee, 0);
+          }
+        } else {
+          window.addEventListener('load', detectDevTool);
+          window.addEventListener('resize', detectDevTool);
+          window.addEventListener('mousemove', detectDevTool);
+          window.addEventListener('focus', detectDevTool);
+          window.addEventListener('blur', detectDevTool);
+        }
+      }
 
     </script>
     
