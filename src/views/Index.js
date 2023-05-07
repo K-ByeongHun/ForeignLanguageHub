@@ -40,7 +40,65 @@ import Download from "views/IndexSections/Download.js";
 
 export default function Index() {
   
-  Object.defineProperty(console, '_commandLineAPI', { get : function() { throw '콘솔을 사용할 수 없습니다.' } });
+  var keydownCtrl = 0;
+  var keydownShift = 0;
+
+  document.onkeydown=keycheck;
+  document.onkeyup=uncheckCtrlShift;
+
+  function keycheck()
+  {
+        switch(event.keyCode){ 
+          case 123:event.keyCode='';return false; break; //F12
+          case 17:event.keyCode='';keydownCtrl=1;return false; break; //컨트롤키
+        }
+
+        if(keydownCtrl) return false;
+  }
+
+  function uncheckCtrlShift()
+  {
+        if(event.keyCode==17)      keydownCtrl=0;
+        if(event.keyCode==16)      keydownShift=0;
+  }
+
+
+    function click()
+  {
+      if ((event.button==2) || (event.button==2)) 
+      {alert('[마우스 오른쪽 클릭] / [컨트롤] / [F12] 금지 입니다.');}
+  }
+  document.onmousedown=click;
+
+  function() {
+    function detectDevTool(allow) {
+      if(isNaN(+allow)) allow = 100;
+      var start = +new Date(); 
+      debugger;
+      var end = +new Date(); 
+      if(isNaN(start) || isNaN(end) || end - start > allow) {
+        alert('개발자 도구가 감지되었습니다!');
+        document.location.href="https://www.tistory.com/";
+      }
+    }
+    if(window.attachEvent) {
+      if (document.readyState === "complete" || document.readyState === "interactive") {
+          detectDevTool();
+        window.attachEvent('onresize', detectDevTool);
+        window.attachEvent('onmousemove', detectDevTool);
+        window.attachEvent('onfocus', detectDevTool);
+        window.attachEvent('onblur', detectDevTool);
+      } else {
+          setTimeout(argument.callee, 0);
+      }
+    } else {
+      window.addEventListener('load', detectDevTool);
+      window.addEventListener('resize', detectDevTool);
+      window.addEventListener('mousemove', detectDevTool);
+      window.addEventListener('focus', detectDevTool);
+      window.addEventListener('blur', detectDevTool);
+    }
+  }
   
   React.useEffect(() => {
     document.body.classList.toggle("index-page");
