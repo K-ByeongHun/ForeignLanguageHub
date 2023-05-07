@@ -55,16 +55,18 @@ export default function Footer() {
                   Global Ambassador
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink href="">
-                  8기 안철민 제작
-                </NavLink>
-              </NavItem>
+              
              
             </Nav>
           </Col>
           <Col md="3">
-            
+            <Nav>
+              <NavItem>
+                  <NavLink href="">
+                    8기 안철민 제작
+                  </NavLink>
+                </NavItem>
+            </Nav>
           </Col>
         </Row>
       </Container>
