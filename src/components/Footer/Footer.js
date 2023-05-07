@@ -71,7 +71,7 @@ export default function Footer() {
         </Row>
       </Container>
 
-      <div className='my-div'>Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.</div>
+      <div className='copyright'>Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.</div>
 
     </footer>
   );
