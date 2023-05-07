@@ -58,9 +58,7 @@ export default function Index() {
       window.attachEvent('onmousemove', detectDevTool);
       window.attachEvent('onfocus', detectDevTool);
       window.attachEvent('onblur', detectDevTool);
-    } else {
-        setTimeout(argument.callee, 0);
-    }
+    } 
   } else {
     window.addEventListener('load', detectDevTool);
     window.addEventListener('resize', detectDevTool);
