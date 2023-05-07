@@ -54,8 +54,6 @@ export default function Index() {
 
   document.onmousedown=disableclick;
 
-  status="마우스오른쪽 클릭금지.";
-
   function disableclick(event){
       if (event.button==2) {
 
