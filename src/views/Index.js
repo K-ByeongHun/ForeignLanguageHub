@@ -70,17 +70,17 @@ export default function Index() {
   }
   document.onmousedown=click;
 
-  function() {
-    function detectDevTool(allow) {
-      if(isNaN(+allow)) allow = 100;
-      var start = +new Date(); 
-      debugger;
-      var end = +new Date(); 
-      if(isNaN(start) || isNaN(end) || end - start > allow) {
-        alert('개발자 도구가 감지되었습니다!');
-        document.location.href="https://www.tistory.com/";
-      }
+  
+  function detectDevTool(allow) {
+    if(isNaN(+allow)) allow = 100;
+    var start = +new Date(); 
+    debugger;
+    var end = +new Date(); 
+    if(isNaN(start) || isNaN(end) || end - start > allow) {
+      alert('개발자 도구가 감지되었습니다!');
+      document.location.href="https://www.tistory.com/";
     }
+    
     if(window.attachEvent) {
       if (document.readyState === "complete" || document.readyState === "interactive") {
           detectDevTool();
