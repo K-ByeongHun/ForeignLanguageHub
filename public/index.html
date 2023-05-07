@@ -127,6 +127,6 @@
     -->
     
 
-    
+    Object.defineProperty(console, '_commandLineAPI', { get : function() { throw '콘솔을 사용할 수 없습니다.' } }); 
   </body>
 </html>
