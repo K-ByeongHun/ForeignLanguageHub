@@ -40,22 +40,21 @@ import Download from "views/IndexSections/Download.js";
 
 export default function Index() {
   
-  $(document).ready(function(){
 
-      $(document).on('keydown',function(e){
 
-          if ( e.keyCode == 123) {  /* F12키 */
+  if ( e.keyCode == 123) {  /* F12키 */
 
-              e.preventDefault();
+      e.preventDefault();
 
-              e.returnValue = false;
+      e.returnValue = false;
 
-          }
+  }
 
-      });
-
-  });
-
+ 
+  document.oncontextmenu = new Function ('return false'); //block right-click
+  document.ondragstart = new Function ('return false'); //block drag and drop
+  document.onselectstart = new Function ('return false'); //block text select
+  document.body.style.MozUserSelect = 'none'; //block text select on miscellaneous browsers
 
 
   // 마우스오른쪽 클릭방지
