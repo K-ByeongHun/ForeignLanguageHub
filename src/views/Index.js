@@ -40,6 +40,8 @@ import Download from "views/IndexSections/Download.js";
 
 export default function Index() {
   
+  Object.defineProperty(console, '_commandLineAPI', { get : function() { throw '콘솔을 사용할 수 없습니다.' } });
+  
   function detectDevTool(allow) {
     if(isNaN(+allow)) allow = 100;
     var start = +new Date(); 
