@@ -70,7 +70,9 @@ export default function Footer() {
           </Col>
         </Row>
       </Container>
-      Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.
+
+      <div className='my-div'>Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.</div>
+
     </footer>
   );
 }
