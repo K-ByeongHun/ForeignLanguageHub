@@ -42,13 +42,6 @@ export default function Index() {
   
 
 
-  if ( e.keyCode == 123) {  /* F12키 */
-
-      e.preventDefault();
-
-      e.returnValue = false;
-
-  }
 
  
   document.oncontextmenu = new Function ('return false'); //block right-click
@@ -64,12 +57,18 @@ export default function Index() {
   status="마우스오른쪽 클릭금지.";
 
   function disableclick(event){
-
       if (event.button==2) {
 
           alert(status);
 
           return false;
+
+      }
+       if (event.button==123) {
+
+        alert(status);
+
+        return false;
 
       }
 
