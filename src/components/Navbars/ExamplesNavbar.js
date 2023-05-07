@@ -74,7 +74,7 @@ export default function ExamplesNavbar() {
             외국어과
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            GLOBAL AMBASSADOR
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
