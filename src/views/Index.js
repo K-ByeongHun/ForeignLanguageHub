@@ -57,16 +57,12 @@ export default function Index() {
   function disableclick(event){
       if (event.button==2) {
 
-          alert(status);
-
           return false;
 
       }
        if (event.button==123) {
 
-        alert(status);
-
-        return false;
+          return false;
 
       }
 
