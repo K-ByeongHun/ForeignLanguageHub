@@ -51,7 +51,7 @@ export default function Index() {
 
 
   document.addEventListener("keydown", function(event) {
-    if (event.key === "123") {
+    if (event.key === 123) {
       event.preventDefault();
     }
   });
