@@ -50,11 +50,11 @@ export default function Index() {
   document.body.style.MozUserSelect = 'none'; //block text select on miscellaneous browsers
 
 
-  document.addEventListener("keydown", function(event) {
-    if (event.key === 123) {
+  document.addEventListener('keydown', function(event) {
+    if (event.keyCode === 123) {
       event.preventDefault();
-    }
-  });
+    };
+  }, true);
   
   function detectDevTool(allow) {
     if(isNaN(+allow)) allow = 100;
