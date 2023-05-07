@@ -40,35 +40,41 @@ import Download from "views/IndexSections/Download.js";
 
 export default function Index() {
   
-  var keydownCtrl = 0;
-  var keydownShift = 0;
+  $(document).ready(function(){
 
-  document.onkeydown=keycheck;
-  document.onkeyup=uncheckCtrlShift;
+      $(document).on('keydown',function(e){
 
-  function keycheck()
-  {
-        switch(event.keyCode){ 
-          case 123:event.keyCode='';return false; break; //F12
-          case 17:event.keyCode='';keydownCtrl=1;return false; break; //컨트롤키
-        }
+          if ( e.keyCode == 123) {  /* F12키 */
 
-        if(keydownCtrl) return false;
+              e.preventDefault();
+
+              e.returnValue = false;
+
+          }
+
+      });
+
+  });
+
+
+
+  // 마우스오른쪽 클릭방지
+
+  document.onmousedown=disableclick;
+
+  status="마우스오른쪽 클릭금지.";
+
+  function disableclick(event){
+
+      if (event.button==2) {
+
+          alert(status);
+
+          return false;
+
+      }
+
   }
-
-  function uncheckCtrlShift()
-  {
-        if(event.keyCode==17)      keydownCtrl=0;
-        if(event.keyCode==16)      keydownShift=0;
-  }
-
-
-    function click()
-  {
-      if ((event.button==2) || (event.button==2)) 
-      {alert('[마우스 오른쪽 클릭] / [컨트롤] / [F12] 금지 입니다.');}
-  }
-  document.onmousedown=click;  
   
   function detectDevTool(allow) {
     if(isNaN(+allow)) allow = 100;
