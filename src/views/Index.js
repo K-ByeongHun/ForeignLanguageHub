@@ -50,23 +50,11 @@ export default function Index() {
   document.body.style.MozUserSelect = 'none'; //block text select on miscellaneous browsers
 
 
-  // 마우스오른쪽 클릭방지
-
-  document.onmousedown=disableclick;
-
-  function disableclick(event){
-      if (event.button==2) {
-
-          return false;
-
-      }
-       if (event.button==123) {
-
-          return false;
-
-      }
-
-  }
+  document.addEventListener("keydown", function(event) {
+    if (event.key === "123") {
+      event.preventDefault();
+    }
+  });
   
   function detectDevTool(allow) {
     if(isNaN(+allow)) allow = 100;
