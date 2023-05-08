@@ -46,10 +46,9 @@ export default function Notifications() {
   
         <UncontrolledAlert className="alert-with-icon" color="warning">
           <span data-notify="icon" className="tim-icons icon-bulb-63" />
-          <span style ="text-align:center">
+          <span>
             <b></b>
               <img
-                alt="..."
                 className="img-fluid rounded shadow"
                 src={require("assets/img/p1.jpg")}
                 style={{ width: "150px" }}
