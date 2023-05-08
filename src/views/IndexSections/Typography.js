@@ -29,7 +29,7 @@ export default function Typography() {
         src={require("assets/img/path3.png")}
       />
       <Container>
-        <h3 className="title">외국어과</h3>
+        <h3 className="title">행사 일정</h3>
         <div id="typography">
           <Row>
             <Col md="12">
