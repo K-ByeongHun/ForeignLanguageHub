@@ -46,13 +46,9 @@ export default function Notifications() {
   
         <UncontrolledAlert className="alert-with-icon" color="warning">
           <span data-notify="icon" className="tim-icons icon-bulb-63" />
-          <span >
-            <b></b>
-              <img
-                className="img-fluid rounded shadow"
-                src={require("assets/img/po1.jpg")}
-                style={{ width: "250px" }}
-              />
+          <span>
+            <b>큰퀴즈 온더 블럭( “영어 말하기 챌린지” 2부) -</b>
+              참가자 모집중!!
           </span>
         </UncontrolledAlert>
         
