@@ -111,18 +111,19 @@ export default function Navbars() {
           <button className="close" onClick={() => setDemoModal4(false)}>
             <i className="tim-icons icon-simple-remove" />
           </button>
-          <h4 className="title title-up">다문화 연구 동아리</h4>
+          <h4 className="title title-up">영어 동화책 창작반</h4>
         </div>
         <div className="modal-body">
           <p>
-          - (목표) 중국, 일본을 중심으로 한 동아시아 국가의 언어와 문화에 대해 탐구하여 토론하고 
-          자신의 진로 분야와 연관 지어 발표하는 활동 등을 한다. 이를 통해 문화이해수준을 높이고, 
-          문화의 상대성에 대해 직, 간접적으로 체득하여 글로벌 마인드를 갖는다.   
+          - (목표) 영문학적 수사적 표현을 활용한 영작활동을 활성화 한다. 학생들의 문학적 감수성을 높이고 표지 
+          디자인, 삽화, 내용 선정 및 작문, 편집, 제본 등 전반적인 과정에 직접 참여하며 아동들을 대상으로 한 적절한 
+          내용의 동화책 제작을 경험하게 한
           </p>
           <p>
-          - (특징) 여러 국가의 문화에 대한 이해를 바탕으로 다문화 가족 지원센터에 정기적으로 방문하여 
-          '주니어 창체 교실'이라는 수업을 통해 다문화 가정 아이들에게 교육봉사를 한다. 또한, 동아시아 
-          관련된 기사 작성, 영상 제작 등의 콘텐츠를 기획하고 제작한다.  
+          - (특징) 세계시민 역량과 관련하여 아동들에게 교육의 가치가 있는 내용을 선정하여 동화 내용으로 창작해본다. 
+          창작한 동화 내용을 바탕으로 수사적 표현과 리듬감, 재치 있는 표현이 느껴지는 짧은 길이의 영어 동화 줄글 작문을 진행한다.
+          표지와 삽화를 직접 그려 글과 조화롭게 배치하여 편집한다. 편집이 완성된 동화책을 직접 인쇄하여 실물 동화책으로 완성한다.
+          완성한 동화책을 지역아동센터나 교육봉사에서 아동 교육에 활용할 수 있는 방안을 모색한다.
           </p>
         </div>
         <div className="modal-footer">
@@ -292,7 +293,7 @@ export default function Navbars() {
             <Container>
               <div className="navbar-translate" onClick={() => setDemoModal4(true)}>
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal4(true)}>
-                  다문화 연구 동아리
+                  영어 동화책 창작반
                 </NavbarBrand>
                 <button className="navbar-toggler" aria-expanded={false}>
                   <span className="navbar-toggler-bar bar1" />
@@ -316,81 +317,7 @@ export default function Navbars() {
           </Navbar>
           {/* End Navbar Success */}
           {/* Navbar Warning */}
-          <Navbar className="bg-warning" expand="lg">
-            <Container>
-              <div className="navbar-translate" onClick={() => setDemoModal5(true)}>
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal5(true)}>
-                  영어토론반
-                </NavbarBrand>
-                <button className="navbar-toggler" aria-expanded={false}>
-                  <span className="navbar-toggler-bar bar1" />
-                  <span className="navbar-toggler-bar bar2" />
-                  <span className="navbar-toggler-bar bar3" />
-                </button>
-              </div>
-              <Collapse navbar isOpen={false}>
-                <Nav className="ml-auto" navbar>
-                  <NavItem className="active">
-                    <NavLink href="#pablo" onClick={() => setDemoModal5(true)}>
-                      <i className="tim-icons icon-world" />
-                      더보기
-                    </NavLink>
-                  </NavItem>
-
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
-          {/* End Navbar Warning */}
-          {/* Navbar Danger */}
-          <Navbar className="bg-danger" expand="lg">
-            <Container>
-              <div className="navbar-translate" onClick={() => setDemoModal6(true)}>
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal6(true)}>
-                  영미문학동아리
-                </NavbarBrand>
-                <button className="navbar-toggler" aria-expanded={false}>
-                  <span className="navbar-toggler-bar bar1" />
-                  <span className="navbar-toggler-bar bar2" />
-                  <span className="navbar-toggler-bar bar3" />
-                </button>
-              </div>
-              <Collapse navbar isOpen={false}>
-                <Nav className="ml-auto" navbar>
-                  <NavItem className="active">
-                    <NavLink href="#pablo" onClick={() => setDemoModal6(true)}>
-                      <i className="tim-icons icon-world" />
-                      더보기
-                    </NavLink>
-                  </NavItem>
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
-          <Navbar className="bg-info" expand="lg">
-            <Container>
-              <div className="navbar-translate" onClick={() => setDemoModal7(true)}>
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal7(true)}>
-                  영어 동화책 창작반
-                </NavbarBrand>
-                <button className="navbar-toggler" aria-expanded={false}>
-                  <span className="navbar-toggler-bar bar1" />
-                  <span className="navbar-toggler-bar bar2" />
-                  <span className="navbar-toggler-bar bar3" />
-                </button>
-              </div>
-              <Collapse navbar isOpen={false}>
-                <Nav className="ml-auto" navbar>
-                  <NavItem className="active">
-                    <NavLink href="#pablo" onClick={() => setDemoModal7(true)}>
-                      <i className="tim-icons icon-world" />
-                      더보기
-                    </NavLink>
-                  </NavItem>
-                </Nav>
-              </Collapse>
-            </Container>
-          </Navbar>
+          
           {/* End Navbar Danger */}
           {/* Navbar Transparent */}
           {/* End Navbar Transparent*/}
