@@ -17,11 +17,65 @@
 */
 import React from "react";
 // reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
+import { Button, Container, Row, Col, Modal } from "reactstrap";
 
 export default function NucleoIcons() {
+  
+  const [demoModal2, setDemoModal2] = React.useState(false);
+  
   return (
     <div className="section section-nucleo-icons">
+    
+      <Modal isOpen={demoModal2} toggle={() => setDemoModal2(false)}>
+
+        <div className="modal-header justify-content-center">
+
+          <button className="close" onClick={() => setDemoModal2(false)}>
+
+            <i className="tim-icons icon-simple-remove" />
+
+          </button>
+
+          <h4 className="title title-up">큰퀴즈 온더 블럭</h4>
+
+        </div>
+
+        <div className="modal-body">
+
+          <p>
+
+          - 설명
+
+          </p>
+
+          <p>
+
+          - 명설명
+
+          </p>
+
+        </div>
+
+        <div className="modal-footer">
+
+          <Button
+
+            color="danger"
+
+            type="button"
+
+            onClick={() => setDemoModal2(false)}
+
+          >
+
+            Close
+
+          </Button>
+
+        </div>
+
+      </Modal>   
+    
       <img alt="..." className="path" src={require("assets/img/path3.png")} />
       <Container>
         <Row className="justify-content-center">
@@ -36,7 +90,7 @@ export default function NucleoIcons() {
               <Button
                 className="btn-round"
                 color="primary"
-                href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/icons"
+                href=""
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -45,7 +99,7 @@ export default function NucleoIcons() {
               <Button
                 className="btn-simple btn-round"
                 color="primary"
-                href="https://nucleoapp.com/?ref=1712"
+                onClick={() => setDemoModal2(true)}
                 rel="noopener noreferrer"
                 size="lg"
                 target="_blank"
