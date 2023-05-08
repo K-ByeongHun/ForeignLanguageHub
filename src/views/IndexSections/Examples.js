@@ -38,7 +38,6 @@ export default function Examples() {
             <Button
               className="btn-simple btn-round"
               color="primary"
-              to="landing-page"
               tag={Link}
             >
               제 1회 영어 말하기 Challenge
@@ -55,7 +54,6 @@ export default function Examples() {
             <Button
               className="btn-simple btn-round"
               color="primary"
-              to="profile-page"
               tag={Link}
             >
               큰퀴즈 온더 블럭
