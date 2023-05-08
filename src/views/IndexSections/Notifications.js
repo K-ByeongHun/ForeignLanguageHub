@@ -43,6 +43,19 @@ export default function Notifications() {
             큰사넷 설문조사 선착순 100명
           </span>
         </UncontrolledAlert>
+  
+        <UncontrolledAlert className="alert-with-icon" color="warning">
+          <span data-notify="icon" className="tim-icons icon-bulb-63" />
+          <span>
+            <b></b>
+              <img
+                alt="..."
+                className="img-fluid rounded shadow"
+                src={require("assets/img/p1.jpg")}
+                style={{ width: "300px" text-align: center}}
+              />
+          </span>
+        </UncontrolledAlert>
         
       </Container>
     </div>
