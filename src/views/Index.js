@@ -100,6 +100,7 @@ export default function Index() {
         <div className="main">
           <Notifications />
           <JavaScript />
+          <NucleoIcons />
           <Navbars />
           <Tabs />
           <Pagination />
