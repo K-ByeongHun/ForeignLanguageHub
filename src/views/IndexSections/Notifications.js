@@ -50,7 +50,7 @@ export default function Notifications() {
             <b></b>
               <img
                 className="img-fluid rounded shadow"
-                src={require("assets/img/p1.jpg")}
+                src={require("assets/img/po1.jpg")}
                 style={{ width: "100%" }}
               />
           </span>
