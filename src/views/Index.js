@@ -99,6 +99,7 @@ export default function Index() {
         <PageHeader />
         <div className="main">
           <Notifications />
+          <Examples />
           <JavaScript />
           <NucleoIcons />
           <Navbars />
