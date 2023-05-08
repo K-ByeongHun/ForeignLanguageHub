@@ -32,7 +32,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/landing-page.png")}
+                src={require("assets/img/po1.jpg")}
               />
             </Link>
             <Button
@@ -41,7 +41,7 @@ export default function Examples() {
               to="landing-page"
               tag={Link}
             >
-              View Landing Page
+              제 1회 영어 말하기 Challenge
             </Button>
           </Col>
           <Col sm="6">
@@ -49,7 +49,7 @@ export default function Examples() {
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/profile-page.png")}
+                src={require("assets/img/po1.jpg")}
               />
             </Link>
             <Button
@@ -58,7 +58,7 @@ export default function Examples() {
               to="profile-page"
               tag={Link}
             >
-              View Profile Page
+              큰퀴즈 온더 블럭
             </Button>
           </Col>
         </Row>
