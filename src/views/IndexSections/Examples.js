@@ -28,13 +28,12 @@ export default function Examples() {
       <Container className="text-center">
         <Row>
           <Col sm="6">
-            <Link to="landing-page">
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/po1.jpg")}
-              />
-            </Link>
+            <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/po1.jpg")}
+              style={{ width: "250px" }}
+            />
             <Button
               className="btn-simple btn-round"
               color="primary"
@@ -44,13 +43,12 @@ export default function Examples() {
             </Button>
           </Col>
           <Col sm="6">
-            <Link to="profile-page">
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/po1.jpg")}
-              />
-            </Link>
+            <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/po1.jpg")}
+              style={{ width: "250px" }}
+            />
             <Button
               className="btn-simple btn-round"
               color="primary"
