@@ -46,7 +46,7 @@ export default function Notifications() {
   
         <UncontrolledAlert className="alert-with-icon" color="warning">
           <span data-notify="icon" className="tim-icons icon-bulb-63" />
-          <span style ="text-align:center";>
+          <span style ="text-align:center">
             <b></b>
               <img
                 alt="..."
