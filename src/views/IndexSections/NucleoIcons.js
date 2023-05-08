@@ -112,7 +112,6 @@ export default function NucleoIcons() {
         <div className="blur-hover">
           
           <Container className="text-center">
-            <Row>
                 <img
                   alt="..."
                   className="img-raised"
@@ -121,7 +120,6 @@ export default function NucleoIcons() {
                 />
                 
            
-            </Row>
           </Container>
           
         </div>
