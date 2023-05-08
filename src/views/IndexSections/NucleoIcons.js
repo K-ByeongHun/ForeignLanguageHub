@@ -28,9 +28,9 @@ export default function NucleoIcons() {
           <Col lg="8" md="12">
             <h2 className="title">큰퀴즈 온더 블럭</h2>
             <h4 className="description">
-              <p>
+              
               모집대상:
-              <p/>
+              
             </h4>
             <div className="btn-wrapper">
               <Button
