@@ -47,12 +47,7 @@ export default function Typography() {
                   제 1회 영어 말하기 Challenge
                 </p>
               </div>
-              <div className="typography-line">
-                <span>9월</span>
-                <p className="text-info">
-                  영어 토론 대회
-                </p>
-              </div>
+              
               
               <div className="typography-line">
                 <span>11월</span>
