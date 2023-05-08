@@ -116,7 +116,7 @@ export default function NucleoIcons() {
                   alt="..."
                   className="img-raised"
                   src={require("assets/img/wg.png")}
-                  style={{ width: "450px" }}
+                  style={{ width: "600px" }}
                 />
                 
            
