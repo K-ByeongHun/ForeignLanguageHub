@@ -51,7 +51,7 @@ export default function Notifications() {
               <img
                 className="img-fluid rounded shadow"
                 src={require("assets/img/p1.jpg")}
-                style={{ width: "50%" }}
+                style={{ width: "50px" }}
               />
           </span>
         </UncontrolledAlert>
