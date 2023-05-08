@@ -233,9 +233,7 @@ export default function JavaScript() {
             </div>
           </Modal>
           {/* End Form Modal */}
-        
-        <br />
-        <br />
+
       </Container>
       <div className="section">
         <Container>
