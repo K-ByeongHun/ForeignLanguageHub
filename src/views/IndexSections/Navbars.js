@@ -558,160 +558,6 @@ export default function Navbars() {
 
             <Container>
 
-              <div className="navbar-translate" onClick={() => setDemoModal4(true)}>
-
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal4(true)}>
-
-                  다문화 연구 동아리
-
-                </NavbarBrand>
-
-                <button className="navbar-toggler" aria-expanded={false}>
-
-                  <span className="navbar-toggler-bar bar1" />
-
-                  <span className="navbar-toggler-bar bar2" />
-
-                  <span className="navbar-toggler-bar bar3" />
-
-                </button>
-
-              </div>
-
-              <Collapse navbar isOpen={false}>
-
-                <Nav className="ml-auto" navbar>
-
-                  
-
-                  <NavItem className="active">
-
-                    <NavLink href="#pablo" onClick={() => setDemoModal4(true)}>
-
-                      <i className="tim-icons icon-world" />
-
-                      더보기
-
-                    </NavLink>
-
-                  </NavItem>
-
-                </Nav>
-
-              </Collapse>
-
-            </Container>
-
-          </Navbar>
-
-          {/* End Navbar Success */}
-
-          {/* Navbar Warning */}
-
-          <Navbar className="bg-warning" expand="lg">
-
-            <Container>
-
-              <div className="navbar-translate" onClick={() => setDemoModal5(true)}>
-
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal5(true)}>
-
-                  영어토론반
-
-                </NavbarBrand>
-
-                <button className="navbar-toggler" aria-expanded={false}>
-
-                  <span className="navbar-toggler-bar bar1" />
-
-                  <span className="navbar-toggler-bar bar2" />
-
-                  <span className="navbar-toggler-bar bar3" />
-
-                </button>
-
-              </div>
-
-              <Collapse navbar isOpen={false}>
-
-                <Nav className="ml-auto" navbar>
-
-                  <NavItem className="active">
-
-                    <NavLink href="#pablo" onClick={() => setDemoModal5(true)}>
-
-                      <i className="tim-icons icon-world" />
-
-                      더보기
-
-                    </NavLink>
-
-                  </NavItem>
-
-                </Nav>
-
-              </Collapse>
-
-            </Container>
-
-          </Navbar>
-
-          {/* End Navbar Warning */}
-
-          {/* Navbar Danger */}
-
-          <Navbar className="bg-danger" expand="lg">
-
-            <Container>
-
-              <div className="navbar-translate" onClick={() => setDemoModal6(true)}>
-
-                <NavbarBrand href="#pablo" onClick={() => setDemoModal6(true)}>
-
-                  영미문학동아리
-
-                </NavbarBrand>
-
-                <button className="navbar-toggler" aria-expanded={false}>
-
-                  <span className="navbar-toggler-bar bar1" />
-
-                  <span className="navbar-toggler-bar bar2" />
-
-                  <span className="navbar-toggler-bar bar3" />
-
-                </button>
-
-              </div>
-
-              <Collapse navbar isOpen={false}>
-
-                <Nav className="ml-auto" navbar>
-
-                  <NavItem className="active">
-
-                    <NavLink href="#pablo" onClick={() => setDemoModal6(true)}>
-
-                      <i className="tim-icons icon-world" />
-
-                      더보기
-
-                    </NavLink>
-
-                  </NavItem>
-
-                </Nav>
-
-              </Collapse>
-
-            </Container>
-
-          </Navbar>
-
-          <Navbar className="bg-info" expand="lg">
-
-            <Container>
-
               <div className="navbar-translate" onClick={() => setDemoModal7(true)}>
 
                 <NavbarBrand href="#pablo" onClick={() => setDemoModal7(true)}>
@@ -736,6 +582,8 @@ export default function Navbars() {
 
                 <Nav className="ml-auto" navbar>
 
+                  
+
                   <NavItem className="active">
 
                     <NavLink href="#pablo" onClick={() => setDemoModal7(true)}>
@@ -756,6 +604,9 @@ export default function Navbars() {
 
           </Navbar>
 
+          {/* End Navbar Success */}
+
+          
           {/* End Navbar Danger */}
 
           {/* Navbar Transparent */}
