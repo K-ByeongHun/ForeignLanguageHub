@@ -113,7 +113,6 @@ export default function NucleoIcons() {
           
           <Container className="text-center">
             <Row>
-              <Col sm="6">
                 <img
                   alt="..."
                   className="img-raised"
@@ -121,8 +120,7 @@ export default function NucleoIcons() {
                   style={{ width: "100%" }}
                 />
                 
-              </Col>
-            
+           
             </Row>
           </Container>
           
