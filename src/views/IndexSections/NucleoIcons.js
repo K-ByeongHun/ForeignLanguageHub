@@ -50,7 +50,7 @@ export default function NucleoIcons() {
 
           <p>
 
-          - 명설명
+          - 설명
 
           </p>
 
@@ -110,6 +110,21 @@ export default function NucleoIcons() {
           </Col>
         </Row>
         <div className="blur-hover">
+          
+          <Container className="text-center">
+            <Row>
+              <Col sm="6">
+                <img
+                  alt="..."
+                  className="img-raised"
+                  src={require("assets/img/wg.png")}
+                  style={{ width: "100%" }}
+                />
+                
+              </Col>
+            
+            </Row>
+          </Container>
           
         </div>
       </Container>
