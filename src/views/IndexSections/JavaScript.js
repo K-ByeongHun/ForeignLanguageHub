@@ -61,7 +61,7 @@ const carouselItems = [
 
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
-  
+  const [demoModal2, setDemoModal2] = React.useState(false);
 
   
   const [miniModal, setMiniModal] = React.useState(false);
