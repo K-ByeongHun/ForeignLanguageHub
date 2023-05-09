@@ -334,7 +334,7 @@ export default function JavaScript() {
               <Button
                 className="mt-4"
                 color="warning"
-                onClick={() => setDemoModal(true)}
+                onClick={() => setDemoModal2(true)}
               >
                 참가방법
               </Button>
