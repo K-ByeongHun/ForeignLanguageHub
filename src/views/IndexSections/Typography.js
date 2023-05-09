@@ -52,7 +52,7 @@ export default function Typography() {
               <div className="typography-line">
                 <span>11월</span>
                 <p className="text-warning">
-                  제 1회 영어 말하기 Challenge
+                  제 2회 영어 말하기 Challenge
                 </p>
                 <p className="text-warning">
                   중국문화 탐구대회
