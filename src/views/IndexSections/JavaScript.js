@@ -138,6 +138,56 @@ export default function JavaScript() {
           </Modal>
           
 
+          <Modal isOpen={demoModal2} toggle={() => setDemoModal2(false)}>
+
+            <div className="modal-header justify-content-center">
+
+              <button className="close" onClick={() => setDemoModal2(false)}>
+
+                <i className="tim-icons icon-simple-remove" />
+
+              </button>
+
+              <h4 className="title title-up">큰퀴즈 온더 블럭</h4>
+
+            </div>
+
+            <div className="modal-body">
+
+              <p>
+              참가신청: 2023. 05. 18(목) 23시까지
+              </p>
+
+              <p>
+              참가방법: 구글폼 제출
+              </p>
+              <p>
+              자세한 사항은 큰사넷 참고
+              </p>
+         
+            </div>
+
+            <div className="modal-footer">
+              <Button color="default" type="button" href="https://forms.gle/ovPymvFmie7pAw1a6">
+                참가 신청
+              </Button>
+              <Button
+
+                color="danger"
+
+                type="button"
+
+                onClick={() => setDemoModal2(false)}
+
+              >
+
+                Close
+
+              </Button>
+
+            </div>
+
+          </Modal>   
           
           
           {/* End Mini Modal */}
@@ -267,6 +317,40 @@ export default function JavaScript() {
           </Row>
         </Container>
       </div>
+
+      <div className="section">
+        <Container>
+          <div className="title">
+            <h3></h3>
+          </div>
+          <Row className="justify-content-between align-items-center">
+            <Col className="mb-5 mb-lg-0" lg="5">
+              <h1 className="text-white font-weight-light">
+                큰퀴즈 온더 블럭
+              </h1>
+              <p className="text-white mt-4">
+                세계 공용어인 영어로 청중들 앞에서 자신의 관심 주제와 관련된 인터뷰를 함으로써 외국어 소통 능력을 향상.
+              </p>
+              <Button
+                className="mt-4"
+                color="warning"
+                onClick={() => setDemoModal(true)}
+              >
+                참가방법
+              </Button>
+
+            </Col>
+            <Col lg="6">
+              <UncontrolledCarousel
+                items={carouselItems}
+                indicators={false}
+                autoPlay={false}
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+
     </div>
   );
 }
