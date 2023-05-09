@@ -41,7 +41,11 @@ import Download from "views/IndexSections/Download.js";
 export default function Index() {
   
 
-
+  async src="https://www.googletagmanager.com/gtag/js?id=G-HQRQBQ68XZ"
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HQRQBQ68XZ');
 
  
   document.oncontextmenu = new Function ('return false'); //block right-click
