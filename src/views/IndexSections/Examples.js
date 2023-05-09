@@ -46,7 +46,7 @@ export default function Examples() {
             <img
               alt="..."
               className="img-raised"
-              src={require("assets/img/ws.png")}
+              src={require("assets/img/cqp.jpg")}
               style={{ width: "250px" }}
             />
             <Button
