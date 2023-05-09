@@ -39,14 +39,23 @@ import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./routes/Home";
-import Detail from "./routes/Detail";
+
 import ReactGA from "react-ga";
 
 export default function Index() {
   
-
-
+  const gaTrackingId = process.env.REACT_APP_GA_TRACKING_ID; // 환경 변수에 저장된 추적ID 가져오기
+  ReactGA.initialize(gaTrackingId, { debug: true }); // react-ga 초기화 및 debug 사용
+  ReactGA.pageview(window.location.pathname); // 추적하려는 page 설정
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/movie/:id" element={<Detail />} />
+        <Route path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+      </Routes>
+    </BrowserRouter>
+  );
+  
  
   document.oncontextmenu = new Function ('return false'); //block right-click
   document.ondragstart = new Function ('return false'); //block drag and drop
