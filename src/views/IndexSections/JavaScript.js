@@ -58,6 +58,13 @@ const carouselItems = [
     caption: ""
   }
 ];
+const carouselItems2 = [
+  {
+    src: require("assets/img/cq.jpg"),
+    altText: "Slide 1",
+    caption: ""
+  }
+];
 
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
@@ -342,7 +349,7 @@ export default function JavaScript() {
             </Col>
             <Col lg="6">
               <UncontrolledCarousel
-                items={carouselItems}
+                items={carouselItems2}
                 indicators={false}
                 autoPlay={false}
               />
