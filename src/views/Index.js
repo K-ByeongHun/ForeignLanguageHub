@@ -101,7 +101,6 @@ export default function Index() {
           <Notifications />
           <Examples />
           <JavaScript />
-          <NucleoIcons />
           <Navbars />
           <Tabs />
           <Pagination />
