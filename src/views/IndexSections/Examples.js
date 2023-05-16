@@ -76,7 +76,7 @@ export default function Examples() {
               
             </Col>
             <Col lg="6">
-              <iframe width="100%" height="315px" src="https://www.youtube.com/embed/cuX9bMaV1p8" title="YouTube video player" 
+              <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
               </iframe>
