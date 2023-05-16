@@ -58,9 +58,9 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
-
+        <div className="space-50" />
         <center>
-          <iframe width="300px" height="140px" src="https://www.youtube.com/embed/cuX9bMaV1p8" title="YouTube video player" 
+          <iframe width="100%" src="https://www.youtube.com/embed/cuX9bMaV1p8" title="YouTube video player" 
             frameborder="0" allow="accelerometer; autoplay; clipboard-write;
             encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
