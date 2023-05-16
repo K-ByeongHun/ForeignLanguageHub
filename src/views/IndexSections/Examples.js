@@ -58,12 +58,12 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
-        <Row>
-          <center>
-            <video src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/preview" width="280" height="158"controls="controls">
-            </video>
-          </center>
-        </Row>
+
+        <center>
+          <video src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/preview" width="280" height="158"controls="controls">
+          </video>
+        </center>
+
       </Container>
     </div>
   );
