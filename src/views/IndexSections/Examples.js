@@ -58,7 +58,13 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
+        <center>
+          <video poster=”” width=”560″ height=”315″ class=”” loop=”” autoplay=”” muted=”” id=”” controls=”controls”>
 
+            <source src=”https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/view?usp=drivesdk″ type=”video/mp4″>
+
+          </video>
+        </center>
       </Container>
     </div>
   );
