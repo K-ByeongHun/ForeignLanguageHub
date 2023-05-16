@@ -58,11 +58,11 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
-
+        <Row>
         <center>
-          <iframe src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/preview" width="280" height="158" ></iframe>
+          <iframe src="https://www.youtube.com/embed/cuX9bMaV1p8" width="280" height="158" allowfullscreen></iframe>
         </center>
-
+        </Row>
       </Container>
     </div>
   );
