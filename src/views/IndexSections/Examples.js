@@ -58,15 +58,32 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
-        <div className="space-50" />
-        <center>
-          <iframe width="250px" src="https://www.youtube.com/embed/cuX9bMaV1p8" title="YouTube video player" 
-            frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-          </iframe>
-        </center>
 
       </Container>
+      <div className="section">
+        <Container>
+          <div className="title">
+            <h3></h3>
+          </div>
+          <Row className="justify-content-between align-items-center">
+            <Col className="mb-5 mb-lg-0" lg="5">
+              <h1 className="text-white font-weight-light">
+                홍보 영상
+              </h1>
+              <p className="text-white mt-4">
+                
+              </p>
+              
+            </Col>
+            <Col lg="6">
+              <iframe width="100%" src="https://www.youtube.com/embed/cuX9bMaV1p8" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </div>
   );
 }
