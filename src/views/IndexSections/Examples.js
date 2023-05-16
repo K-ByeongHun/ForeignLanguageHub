@@ -58,6 +58,22 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
+        <Row>
+          
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cuX9bMaV1p8" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+          </iframe>
+          <Button
+            className="btn-simple btn-round"
+            color="primary"
+            tag={Link}
+          >
+            제 1회 영어 말하기 Challenge 홍보 영상
+          </Button>
+      
+          
+        </Row>
       </Container>
     </div>
   );
