@@ -58,10 +58,7 @@ export default function Examples() {
             </Button>
           </Col>
         </Row>
-        <center>
-          <video src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/view?usp=drivesdk" width="560" height="315"controls="controls">
-          </video>
-        </center>
+        
       </Container>
     </div>
   );
