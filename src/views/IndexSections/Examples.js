@@ -60,8 +60,7 @@ export default function Examples() {
         </Row>
 
         <center>
-          <video src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/preview" width="280" height="158"controls="controls">
-          </video>
+          <iframe src="https://drive.google.com/file/d/1wjtarbFZ0V7bY4_JtjhUzSPAVl36xL0X/preview" width="280" height="158" ></iframe>
         </center>
 
       </Container>
