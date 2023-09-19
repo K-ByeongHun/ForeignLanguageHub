@@ -94,12 +94,12 @@ export default function JavaScript() {
               <h4 className="title title-up">참가신청</h4>
             </div>
             <div className="modal-body">
-              <p>큰사넷 학생공지게시판</p>
-              <p>참가신청: 2023. 05 22 (월) 23시까지</p>
-              <p>큰사넷 설문조사 선착순 100명</p>
+              <p></p>
+              <p>준비중</p>
+              <p></p>
             </div>
             <div className="modal-footer">
-              <Button color="default" type="button" href="https://student.cnsa.hs.kr">
+              <Button color="default" type="button" >
                 큰사넷 바로가기
               </Button>
               <Button
@@ -162,20 +162,20 @@ export default function JavaScript() {
             <div className="modal-body">
 
               <p>
-              참가신청: 2023. 05. 18(목) 23시까지
+              
               </p>
 
               <p>
-              참가방법: 구글폼 제출
+              준비중
               </p>
               <p>
-              자세한 사항은 큰사넷 참고
+              
               </p>
          
             </div>
 
             <div className="modal-footer">
-              <Button color="default" type="button" href="https://forms.gle/ovPymvFmie7pAw1a6">
+              <Button color="default" type="button" >
                 참가 신청
               </Button>
               <Button
