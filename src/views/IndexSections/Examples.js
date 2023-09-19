@@ -25,42 +25,8 @@ export default function Examples() {
     <div className="section section-examples" data-background-color="black">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <div className="space-50" />
-    /*
-      <Container className="text-center">
-        <Row>
-          <Col sm="6">
-            <img
-              alt="..."
-              className="img-raised"
-              src={require("assets/img/po1.jpg")}
-              style={{ width: "250px" }}
-            />
-            <Button
-              className="btn-simple btn-round"
-              color="primary"
-              tag={Link}
-            >
-              제 1회 영어 말하기 Challenge
-            </Button>
-          </Col>
-          <Col sm="6">
-            <img
-              alt="..."
-              className="img-raised"
-              src={require("assets/img/cqp.jpg")}
-              style={{ width: "250px" }}
-            />
-            <Button
-              className="btn-simple btn-round"
-              color="primary"
-              tag={Link}
-            >
-              큰퀴즈 온더 블럭
-            </Button>
-          </Col>
-        </Row>
-
-      </Container> */
+    
+      
       <div className="section">
         <Container>
           <div className="title">
