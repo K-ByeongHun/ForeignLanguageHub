@@ -25,6 +25,7 @@ export default function Examples() {
     <div className="section section-examples" data-background-color="black">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <div className="space-50" />
+    /*
       <Container className="text-center">
         <Row>
           <Col sm="6">
@@ -59,7 +60,7 @@ export default function Examples() {
           </Col>
         </Row>
 
-      </Container>
+      </Container> */
       <div className="section">
         <Container>
           <div className="title">
