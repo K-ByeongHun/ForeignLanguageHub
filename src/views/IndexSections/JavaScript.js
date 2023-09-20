@@ -66,6 +66,19 @@ const carouselItems2 = [
   }
 ];
 
+const carouselItems3 = [
+  {
+    src: require("assets/img/이뿌영1.png"),
+    altText: "Slide 1",
+    caption: ""
+  },
+  {
+    src: require("assets/img/이뿌영2.png"),
+    altText: "Slide 2",
+    caption: ""
+  }
+];
+
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
   const [demoModal2, setDemoModal2] = React.useState(false);
