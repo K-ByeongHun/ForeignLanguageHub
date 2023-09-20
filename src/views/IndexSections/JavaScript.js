@@ -335,6 +335,7 @@ export default function JavaScript() {
           {/* End Form Modal */}
 
       </Container>
+        
       <div className="section">
         <Container>
           <div className="title">
@@ -351,7 +352,7 @@ export default function JavaScript() {
               <Button
                 className="mt-4"
                 color="warning"
-                onClick={() => setDemoModal13(true)}
+                onClick={() => setDemoModal3(true)}
               >
                 참가방법
               </Button>
