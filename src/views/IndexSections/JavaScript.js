@@ -209,7 +209,7 @@ export default function JavaScript() {
 
           </Modal>   
 
-          <Modal isOpen={demoModal} toggle={() => setDemoModal3(false)}>
+          <Modal isOpen={setDemoModal3} toggle={() => setDemoModal3(false)}>
             <div className="modal-header justify-content-center">
               <button className="close" onClick={() => setDemoModal3(false)}>
                 <i className="tim-icons icon-simple-remove" />
