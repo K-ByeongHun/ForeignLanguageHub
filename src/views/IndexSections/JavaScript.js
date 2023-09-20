@@ -195,6 +195,37 @@ export default function JavaScript() {
             </div>
 
           </Modal>   
+
+          <Modal isOpen={demoModal} toggle={() => setDemoModal3(false)}>
+            <div className="modal-header justify-content-center">
+              <button className="close" onClick={() => setDemoModal3(false)}>
+                <i className="tim-icons icon-simple-remove" />
+              </button>
+              <h4 className="title title-up">이뿌영</h4>
+            </div>
+            <div className="modal-body">
+              <p></p>
+              <p>준비중</p>
+              <p></p>
+            </div>
+            <div className="modal-footer">
+              <Button color="default" type="button" >
+                이뿌영 퀴즈 연습 링크
+              </Button>
+              <Button
+                color="danger"
+                type="button"
+                href="https://enquiz.moveto.kr"
+                onClick={() => setDemoModal3(false)}
+              >
+                Close
+              </Button>
+            </div>
+          </Modal>
+          {/* End Demo Modal */}
+         
+          
+         
           
           
           {/* End Mini Modal */}
@@ -296,6 +327,36 @@ export default function JavaScript() {
           <div className="title">
             <h3>행사 공지</h3>
           </div>
+          <Row className="justify-content-between align-items-center">
+            <Col className="mb-5 mb-lg-0" lg="5">
+              <h1 className="text-white font-weight-light">
+                이뿌영
+              </h1>
+              <p className="text-white mt-4">
+                이미지로 뿌리 뽑는 영단어
+              </p>
+              <Button
+                className="mt-4"
+                color="warning"
+                onClick={() => setDemoModal13(true)}
+              >
+                참가방법
+              </Button>
+
+            </Col>
+            <Col lg="6">
+              <UncontrolledCarousel
+                items={carouselItems}
+                indicators={false}
+                autoPlay={false}
+              />
+            </Col>
+          </Row>
+        </Container>
+      </div>
+                  
+      <div className="section">
+        <Container>
           <Row className="justify-content-between align-items-center">
             <Col className="mb-5 mb-lg-0" lg="5">
               <h1 className="text-white font-weight-light">
