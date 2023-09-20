@@ -82,6 +82,7 @@ const carouselItems3 = [
 export default function JavaScript() {
   const [demoModal, setDemoModal] = React.useState(false);
   const [demoModal2, setDemoModal2] = React.useState(false);
+  const [demoModal3, setDemoModal3] = React.useState(false);
 
   
   const [miniModal, setMiniModal] = React.useState(false);
@@ -209,7 +210,7 @@ export default function JavaScript() {
 
           </Modal>   
 
-          <Modal isOpen={setDemoModal3} toggle={() => setDemoModal3(false)}>
+          <Modal isOpen={demoModal3} toggle={() => setDemoModal3(false)}>
             <div className="modal-header justify-content-center">
               <button className="close" onClick={() => setDemoModal3(false)}>
                 <i className="tim-icons icon-simple-remove" />
