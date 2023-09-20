@@ -48,13 +48,7 @@ export default function Download() {
               이뿌영 퀴즈 바로가기
             </Button>
           </Col>
-        </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        
+        </Row>   
       </Container>
     </div>
   );
