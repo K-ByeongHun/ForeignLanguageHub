@@ -223,13 +223,13 @@ export default function JavaScript() {
               <p></p>
             </div>
             <div className="modal-footer">
-              <Button color="default" type="button" >
+              <Button color="default" type="button" href="https://enquiz.moveto.kr">
                 이뿌영 퀴즈 연습 링크
               </Button>
               <Button
                 color="danger"
                 type="button"
-                href="https://enquiz.moveto.kr"
+                
                 onClick={() => setDemoModal3(false)}
               >
                 Close
@@ -348,7 +348,7 @@ export default function JavaScript() {
                 이뿌영
               </h1>
               <p className="text-white mt-4">
-                이미지로 뿌리 뽑는 영단어
+                이미지로 뿌리 뽑는 영단어 ---- 설명 더 필요
               </p>
               <Button
                 className="mt-4"
