@@ -34,7 +34,7 @@ export default function Download() {
               이뿌영 퀴즈
             </h2>
             <h4 className="description">
-              
+              설명
             </h4>
           </Col>
           <Col className="text-center" lg="8" md="12">
