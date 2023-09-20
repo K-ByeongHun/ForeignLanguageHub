@@ -346,7 +346,7 @@ export default function JavaScript() {
             </Col>
             <Col lg="6">
               <UncontrolledCarousel
-                items={carouselItems}
+                items={carouselItems3}
                 indicators={false}
                 autoPlay={false}
               />
