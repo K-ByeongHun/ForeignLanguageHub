@@ -31,7 +31,7 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              이뿌영 퀴즈
+              Challenge! 이뿌영_Day
             </h2>
             <h4 className="description">
               설명
@@ -45,7 +45,7 @@ export default function Download() {
               role="button"
               size="lg"
             >
-              이뿌영 퀴즈 바로가기
+              이뿌영 Quiz 연습 바로가기
             </Button>
           </Col>
         </Row>   
