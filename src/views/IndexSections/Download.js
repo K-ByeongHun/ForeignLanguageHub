@@ -51,6 +51,13 @@ export default function Download() {
               설명
             </h4>
           </Col>
+          <Col lg="6">
+              <UncontrolledCarousel
+                items={carouselItems3}
+                indicators={false}
+                autoPlay={false}
+              />
+            </Col>
           <Col className="text-center" lg="8" md="12">
             <Button
               className="btn-round"
