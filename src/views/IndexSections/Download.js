@@ -58,9 +58,7 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
-          <br />
-          <br />
-          <br />
+          <p data-ke-size="size16">&nbsp;</p>
           <Col className="text-center" lg="8" md="12">
             <Button
               className="btn-round"
