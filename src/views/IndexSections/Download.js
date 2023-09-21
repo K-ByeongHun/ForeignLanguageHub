@@ -19,6 +19,20 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 
+const carouselItems3 = [
+  {
+    src: require("assets/img/이뿌영1.png"),
+    altText: "Slide 1",
+    caption: ""
+  },
+  {
+    src: require("assets/img/이뿌영2.png"),
+    altText: "Slide 2",
+    caption: ""
+  }
+];
+
+
 export default function Download() {
   return (
     <div
