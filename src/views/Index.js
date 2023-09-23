@@ -100,9 +100,10 @@ export default function Index() {
         <PageHeader />
         <div className="main">
           <Download />
-          <Signup />
+          
           <Notifications />
           <Examples />
+          <Signup />
           <JavaScript />
           <Navbars />
           <Tabs />
