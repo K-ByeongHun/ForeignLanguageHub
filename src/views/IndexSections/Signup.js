@@ -66,6 +66,12 @@ export default function Signup() {
           
         </Row>
       </Container>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
     </div>
   );
 }
