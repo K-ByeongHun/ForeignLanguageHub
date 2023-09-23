@@ -114,7 +114,7 @@ export default function RegisterPage() {
                   </p>
                 </Col>
                 <Col lg="6">
-                  <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" title="YouTube video player" 
+                  <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                     encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                   </iframe>
