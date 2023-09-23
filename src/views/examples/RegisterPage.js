@@ -124,6 +124,29 @@ export default function RegisterPage() {
             </Container>
           </div>
         </div>
+                      
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  2강
+                </h1>
+                <p className="text-white mt-4">
+                  02강 de_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+                      
         <Footer />
       </div>
     </>
