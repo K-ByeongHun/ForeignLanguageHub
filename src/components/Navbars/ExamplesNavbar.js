@@ -119,9 +119,9 @@ export default function ExamplesNavbar() {
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
-                href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-examples-navbar-upgrade-pro"
+                href="https://student.cnsa.hs.kr/login/"
               >
-                <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                <i className="tim-icons icon-spaceship" /> 큰사넷 바로가기
               </Button>
             </NavItem>
             <NavItem>
