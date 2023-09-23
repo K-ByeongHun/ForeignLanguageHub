@@ -23,7 +23,7 @@ export default function Notifications() {
   return (
     <div className="section section-notifications" id="notifications">
       <Container>
-        <div className="space" />
+        
         <h3>Notifications</h3>
         
         <UncontrolledAlert className="alert-with-icon" color="primary">
