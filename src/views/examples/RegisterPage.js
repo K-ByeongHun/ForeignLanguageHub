@@ -83,7 +83,8 @@ export default function RegisterPage() {
           <div className="page-header-image" />
           <div className="content">
             <Container>
-    
+
+              <div className="space" />
               <Row className="justify-content-between align-items-center">
                 <Col className="mb-5 mb-lg-0" lg="5">
                   <h1 className="text-white font-weight-light">
@@ -99,6 +100,7 @@ export default function RegisterPage() {
                 </Col>
               </Row>
 
+              <div className="space" />
               <Row className="justify-content-between align-items-center">
                 <Col className="mb-5 mb-lg-0" lg="5">
                   <h1 className="text-white font-weight-light">
