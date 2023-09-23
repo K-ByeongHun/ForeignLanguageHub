@@ -83,7 +83,25 @@ export default function RegisterPage() {
           <div className="page-header-image" />
           <div className="content">
             <Container>
-              
+    
+              <Row className="justify-content-between align-items-center">
+                <Col className="mb-5 mb-lg-0" lg="5">
+                  <h1 className="text-white font-weight-light">
+                    1강
+                  </h1>
+                  <p className="text-white mt-4">
+                    
+                  </p>
+                  
+                </Col>
+                <Col lg="6">
+                  <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                  </iframe>
+                </Col>
+              </Row>
+                      
             </Container>
           </div>
         </div>
