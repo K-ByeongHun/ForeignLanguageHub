@@ -81,6 +81,7 @@ export default function RegisterPage() {
       <div className="wrapper">
         <div className="page-header">
           <div className="page-header-image" />
+        </div>
           
         <div className="section">
           <Container>
