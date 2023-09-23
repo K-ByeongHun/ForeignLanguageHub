@@ -79,9 +79,7 @@ export default function RegisterPage() {
     <>
       <ExamplesNavbar />
       <div className="wrapper">
-        <div className="page-header">
-          <div className="page-header-image" />
-        </div>
+        
           
         <div className="section">
           <Container>
