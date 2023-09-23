@@ -98,6 +98,20 @@ export default function RegisterPage() {
                   <iframe src="https://drive.google.com/file/d/1cs8MIdeamGPKfhkHiCraDruPbdKfMFgO/preview" width="640" height="480" allow="autoplay"></iframe>
                 </Col>
               </Row>
+
+              <Row className="justify-content-between align-items-center">
+                <Col className="mb-5 mb-lg-0" lg="5">
+                  <h1 className="text-white font-weight-light">
+                    2강
+                  </h1>
+                  <p className="text-white mt-4">
+                    02강 de_(공통-기본)
+                  </p>
+                </Col>
+                <Col lg="6">
+                  <iframe src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" width="640" height="480" allow="autoplay"></iframe>
+                </Col>
+              </Row>
                       
             </Container>
           </div>
