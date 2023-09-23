@@ -127,16 +127,12 @@ export default function ExamplesNavbar() {
             <NavItem>
                   
               <NavLink tag={Link} to="/">
-                Back to 
+                메인페이지
               </NavLink>
                   
             </NavItem>
                   
-            <NavItem>
-              <NavLink href="https://github.com/creativetimofficial/blk-design-system-react/issues">
-                Have an issue?
-              </NavLink>
-            </NavItem>
+            
                   
           </Nav>
         </Collapse>
