@@ -96,7 +96,10 @@ export default function RegisterPage() {
                   
                 </Col>
                 <Col lg="6">
-                  <iframe src="https://drive.google.com/file/d/1cs8MIdeamGPKfhkHiCraDruPbdKfMFgO/preview" width="640" height="480" allow="autoplay"></iframe>
+                  <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1cs8MIdeamGPKfhkHiCraDruPbdKfMFgO/preview" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                  </iframe>
                 </Col>
               </Row>
 
@@ -111,7 +114,10 @@ export default function RegisterPage() {
                   </p>
                 </Col>
                 <Col lg="6">
-                  <iframe src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" width="640" height="480" allow="autoplay"></iframe>
+                  <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" title="YouTube video player" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                  </iframe>
                 </Col>
               </Row>
                       
