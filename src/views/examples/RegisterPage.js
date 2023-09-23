@@ -124,7 +124,535 @@ export default function RegisterPage() {
             </Row>   
           </Container>   
         </div>
-                      
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/15uSfhpLk4tQwONDsAb2aZiZ4fPhomasQ/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  4강
+                </h1>
+                <p className="text-white mt-4">
+                  04강 under_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1_2TXu7UCsiENJ_SwowutlIbYvAd--eFn/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  5강
+                </h1>
+                <p className="text-white mt-4">
+                  05강 sur_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1CrzWBodIUZAYz_ZU5L-3M_ULdp9jsUMs/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  6강
+                </h1>
+                <p className="text-white mt-4">
+                  06강 up_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1uynjabrifaPAC4DXEtpV5J35KeDQhL0C/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+
+        <div className="section">
+          <Container>
+            <div className="space" />
+            <Row className="justify-content-between align-items-center">
+              <Col className="mb-5 mb-lg-0" lg="5">
+                <h1 className="text-white font-weight-light">
+                  3강
+                </h1>
+                <p className="text-white mt-4">
+                  03강 sub_(공통-기본)
+                </p>
+              </Col>
+              <Col lg="6">
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                </iframe>
+              </Col>
+            </Row>   
+          </Container>   
+        </div>
+                    
         <Footer />
       </div>
     </>
