@@ -90,7 +90,7 @@ export default function RegisterPage() {
                     1강
                   </h1>
                   <p className="text-white mt-4">
-                    
+                    01강 a ac ad_(공통-기본)
                   </p>
                   
                 </Col>
