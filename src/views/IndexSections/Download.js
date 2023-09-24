@@ -51,8 +51,7 @@ export default function Download() {
               
             </h4>
           </Col>
-          <p data-ke-size="size16">&nbsp;</p>
-          <p data-ke-size="size16">&nbsp;</p>
+          
           <Col sm="6">
               <UncontrolledCarousel
                 items={carouselItems3}
@@ -60,6 +59,8 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
+          <p data-ke-size="size16">&nbsp;</p>
+          <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
               <iframe width="100%" height="215px" src="https://drive.google.com/file/d/1V4aw8JmuOYw_t2HLvbC9OSuJwV4UNsMg/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
