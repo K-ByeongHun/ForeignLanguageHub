@@ -349,7 +349,7 @@ export default function JavaScript() {
                 이뿌영
               </h1>
               <p className="text-white mt-4">
-                이미지로 뿌리 뽑는 영단어 ---- 설명 더 필요
+                이미지로 뿌리 뽑는 영단어
               </p>
               <Button
                 className="mt-4"
