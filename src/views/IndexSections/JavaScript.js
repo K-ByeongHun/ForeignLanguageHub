@@ -218,9 +218,10 @@ export default function JavaScript() {
               <h4 className="title title-up">이뿌영</h4>
             </div>
             <div className="modal-body">
-              <p></p>
-              <p>준비중</p>
-              <p></p>
+              <b>Challenge! 이뿌영_Day(feat. 뿅뿅!! 큰사오락실) -</b>
+              <p>일시: 10월 13일(금) 점심시간(4A, 4B), 11월 10일(금) 점심시간(4A, 4B)</p>
+              <p>대상: 전학년(선착순_상품소진시까지)</p>
+              <p>장소: 2층 레이크뷰 앞</p>
             </div>
             <div className="modal-footer">
               <Button color="default" type="button" href="https://enquiz.moveto.kr">
