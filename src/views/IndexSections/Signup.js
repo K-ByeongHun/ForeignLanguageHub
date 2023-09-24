@@ -55,7 +55,7 @@ export default function Signup() {
               <span className="text-white">바로가기</span>
             </h3>
             <p className="text-white mb-3">
-              설명
+              
             </p>
             <div className="btn-wrapper">
               <Button color="primary" to="register-page" tag={Link}>
