@@ -417,14 +417,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  16강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  16강 re_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1ygKbWxuq8zjCNh37NIcqgvtz5MG4NqRj/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -439,14 +439,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  17강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  17강 an anci anti_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1RW28CxssDsy1YTTB1S3Nodk8WuwVf4ds/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -461,14 +461,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  18강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  18강 in_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1E-niD6xuRu-PdCefY_Zj4dOxBllf1AyD/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -483,14 +483,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  19강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  19강 im_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1S3jSj0UnGTSCT42T33KdtnuHHezPmUFD/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -505,14 +505,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  20강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  20강 trans_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1230MTg-mJ7TVh2MFovz405UJRPcr1UkX/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -527,14 +527,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  21강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  21강 anti_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1-qxGKoYynX4WXkjiNv2f508pV_ZIDIlW/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -549,14 +549,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  22강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  22강 counter_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1NF-ReG_YO3kHSsVE7WS5GFZ1cfIR0Z3z/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -571,14 +571,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  23강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  23강 mis_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1oib6LdujsGRlStZOdorO2wlfzUGfcXta/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -593,14 +593,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  24강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  24강 inter_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1481scP3N1en3gwgnJ__NXcaTUyi1HtBh/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -615,14 +615,14 @@ export default function RegisterPage() {
             <Row className="justify-content-between align-items-center">
               <Col className="mb-5 mb-lg-0" lg="5">
                 <h1 className="text-white font-weight-light">
-                  3강
+                  25강
                 </h1>
                 <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
+                  25강 com_(공통-기본)
                 </p>
               </Col>
               <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
+                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1JWuUbwswTEUT9FxGTvwz1ecCKYw-Sbec/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
                 </iframe>
@@ -631,27 +631,7 @@ export default function RegisterPage() {
           </Container>   
         </div>
 
-        <div className="section">
-          <Container>
-            <div className="space" />
-            <Row className="justify-content-between align-items-center">
-              <Col className="mb-5 mb-lg-0" lg="5">
-                <h1 className="text-white font-weight-light">
-                  3강
-                </h1>
-                <p className="text-white mt-4">
-                  03강 sub_(공통-기본)
-                </p>
-              </Col>
-              <Col lg="6">
-                <iframe width="100%" height="315px" src="https://drive.google.com/file/d/1zVfxDpJrYVtu5UftdMyOJtc-DOLSzFKf/preview" 
-                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
-              </Col>
-            </Row>   
-          </Container>   
-        </div>
+        
                     
         <Footer />
       </div>
