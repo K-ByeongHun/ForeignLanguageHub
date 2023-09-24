@@ -51,15 +51,14 @@ export default function Download() {
               설명
             </h4>
           </Col>
-          <Col lg="6">
+          <Col sm="6">
               <UncontrolledCarousel
                 items={carouselItems3}
                 indicators={false}
                 autoPlay={false}
               />
             </Col>
-          <p data-ke-size="size16">&nbsp;</p>
-          <Col lg="6">
+          <Col sm="6">
               <iframe width="100%" height="215px" src="https://drive.google.com/file/d/1V4aw8JmuOYw_t2HLvbC9OSuJwV4UNsMg/preview" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
