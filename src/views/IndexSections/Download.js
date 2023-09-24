@@ -48,7 +48,7 @@ export default function Download() {
               Challenge! 이뿌영_Day
             </h2>
             <h4 className="description">
-              설명
+              
             </h4>
           </Col>
           <p data-ke-size="size16">&nbsp;</p>
