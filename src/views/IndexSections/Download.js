@@ -51,6 +51,8 @@ export default function Download() {
               설명
             </h4>
           </Col>
+          <p data-ke-size="size16">&nbsp;</p>
+          <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
               <UncontrolledCarousel
                 items={carouselItems3}
