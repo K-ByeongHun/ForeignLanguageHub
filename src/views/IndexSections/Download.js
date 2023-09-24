@@ -58,6 +58,12 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
+          <Col lg="6">
+              <iframe width="100%" height="215px" src="https://drive.google.com/file/d/1V4aw8JmuOYw_t2HLvbC9OSuJwV4UNsMg/preview" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+            </Col>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
