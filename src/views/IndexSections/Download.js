@@ -79,11 +79,11 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
                     
-          <div className="text-center" lg="8" md="12">
+          <Col className="text-center" lg="8" md="12">
               <Button color="primary" to="register-page" tag={Link}>
                 이뿌영 학습 영상 바로가기
               </Button>
-            </div>
+          </Col>
                     
           <Col className="text-center" lg="8" md="12">
             <Button
