@@ -103,7 +103,7 @@ export default function Index() {
           
           <Notifications />
           <Examples />
-          <Signup />
+          
           <JavaScript />
           <Navbars />
           <Tabs />
