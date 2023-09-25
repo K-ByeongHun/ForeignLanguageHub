@@ -59,7 +59,7 @@ export default function Signup() {
             </p>
             <div className="btn-wrapper">
               <Button color="primary" to="register-page" tag={Link}>
-                이뿌영 영상 바로가기
+                이뿌영 학습 영상 바로가기
               </Button>
             </div>
           </Col>
