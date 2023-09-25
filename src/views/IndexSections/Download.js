@@ -70,7 +70,7 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
-              <iframe width="100%" height="215px" src="https://drive.google.com/file/d/1Dob6P2ItPXAVR3J6aiOfa3EOWWrinWAx/preview" 
+              <iframe width="100%" height="215px" src="https://www.youtube.com/embed/E65HgkNKctQ" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
               </iframe>
