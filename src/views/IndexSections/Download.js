@@ -29,7 +29,14 @@ const carouselItems3 = [
     src: require("assets/img/이뿌영2.png"),
     altText: "Slide 2",
     caption: ""
+  },
+
+  {
+    src: require("assets/img/이뿌영3.png"),
+    altText: "Slide 3",
+    caption: ""
   }
+
 ];
 
 
