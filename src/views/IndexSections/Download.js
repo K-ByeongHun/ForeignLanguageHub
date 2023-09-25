@@ -80,7 +80,8 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
                     
           <Col className="text-center" lg="8" md="12">
-              <Button color="primary" to="register-page" tag={Link}>
+              <Button className="btn-round" color="info" to="register-page" role="button"
+              size="lg" tag={Link}>
                 이뿌영 학습 영상 바로가기
               </Button>
           </Col>
