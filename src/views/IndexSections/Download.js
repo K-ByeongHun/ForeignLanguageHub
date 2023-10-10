@@ -132,7 +132,7 @@ export default function Download() {
             </h4>
           </Col>
           
-          <Col sm="6">
+          <Col sm="6" style="text-align : center;">
               <img
               alt="..."
               className="img-raised"
