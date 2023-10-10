@@ -114,9 +114,7 @@ export default function Download() {
 
 
                 
-    <div className="section section-download"
-      data-background-color="black"
-      id="download-section">
+    <div className="section section-download" data-background-color="black" id="download-section">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <Container>
         <Row className="justify-content-md-center">
