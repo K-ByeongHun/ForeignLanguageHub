@@ -134,8 +134,13 @@ export default function Download() {
           </Col>
           
           <Col sm="6">
-              
+              <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/etc2.png")}
+              style={{ width: "250px" }}/>
           </Col>
+  
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
