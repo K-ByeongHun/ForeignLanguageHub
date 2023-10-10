@@ -97,6 +97,19 @@ export default function Download() {
               이뿌영 Quiz 연습 바로가기
             </Button>
           </Col>
+                
+          <Col className="text-center" lg="8" md="12">
+            <Button
+              className="btn-round"
+              color="info"
+              href="https://docs.google.com/spreadsheets/d/1QCV-djbLzKf-tg6fq5VXafsbyIs6uH0D-YrueeDy7gg/edit"
+              role="button"
+              size="lg"
+            >
+              이뿌영 단어 리스트 바로가기
+            </Button>
+          </Col>
+                
         </Row>   
       </Container>
     </div>
