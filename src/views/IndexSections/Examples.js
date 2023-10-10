@@ -25,6 +25,30 @@ export default function Examples() {
     <div className="section section-examples" data-background-color="black">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <div className="space-50" />
+
+      <Container className="text-center">
+        <Row>
+    
+          <Col sm="6">
+            <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/etc2.png")}
+              style={{ width: "250px" }}
+            />
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              tag={Link}
+            >
+              제 2회 영어 말하기 Challenge
+            </Button>
+          </Col>
+          
+        </Row>
+
+      </Container> 
+
     
       
       <div className="section">
