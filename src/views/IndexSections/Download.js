@@ -110,12 +110,17 @@ export default function Download() {
                 
         </Row>   
       </Container>
-    </div>
 
-
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
                 
-    <div className="section section-download" data-background-color="black" id="download-section">
-      <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <Container>
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
@@ -174,6 +179,10 @@ export default function Download() {
         </Row>   
       </Container>
     </div>
+
+
+                
+   
 
   );
 }
