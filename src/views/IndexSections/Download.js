@@ -43,11 +43,9 @@ const carouselItems3 = [
 
 export default function Download() {
   return (
-    <div
-      className="section section-download"
+    <div className="section section-download"
       data-background-color="black"
-      id="download-section"
-    >
+      id="download-section">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <Container>
         <Row className="justify-content-md-center">
@@ -116,11 +114,9 @@ export default function Download() {
 
 
                 
-    <div
-      className="section section-download"
+    <div className="section section-download"
       data-background-color="black"
-      id="download-section"
-    >
+      id="download-section">
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <Container>
         <Row className="justify-content-md-center">
