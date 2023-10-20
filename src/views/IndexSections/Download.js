@@ -67,11 +67,10 @@ export default function Download() {
             </Col>
         </Row>
         
-          <div className="space" />
+          
         <Row className="justify-content-between align-items-center">
                   
-          <p data-ke-size="size16">&nbsp;</p>
-          <p data-ke-size="size16">&nbsp;</p>
+          
           <Col sm="6">
               <iframe width="100%" height="215px" src="https://www.youtube.com/embed/knEkdPqdggQ?si=3gBMrEzzLuPmtHQk" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
