@@ -68,7 +68,7 @@ export default function Download() {
         </Row>
         
           
-        <Row className="justify-content-between align-items-center">
+        <Row className="justify-content-md-center">
                   
           
           <Col sm="6">
