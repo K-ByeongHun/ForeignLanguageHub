@@ -65,7 +65,9 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
-          <br>
+                  
+          <div className="space" />
+                  
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
