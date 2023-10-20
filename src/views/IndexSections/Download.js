@@ -65,10 +65,11 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
+          <br>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <Col sm="6">
-              <iframe margin-top="50px" width="100%" height="215px" src="https://www.youtube.com/embed/knEkdPqdggQ?si=3gBMrEzzLuPmtHQk" 
+              <iframe width="100%" height="215px" src="https://www.youtube.com/embed/knEkdPqdggQ?si=3gBMrEzzLuPmtHQk" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
               </iframe>
