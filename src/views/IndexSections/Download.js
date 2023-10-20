@@ -65,8 +65,10 @@ export default function Download() {
                 autoPlay={false}
               />
             </Col>
-                  
+        </Row>
+        
           <div className="space" />
+        <Row className="justify-content-between align-items-center">
                   
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
