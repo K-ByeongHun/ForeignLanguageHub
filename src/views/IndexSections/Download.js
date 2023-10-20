@@ -131,7 +131,7 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              제2회 영어 말하기 Challenge
+              [신청중] 제2회 영어 말하기 Challenge
             </h2>
             <h4 className="description">
               
@@ -195,6 +195,58 @@ export default function Download() {
                 
         </Row>   
       </Container>
+
+
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+        <p data-ke-size="size16">&nbsp;</p>
+                
+      <Container>
+        <Row className="justify-content-md-center">
+          <Col className="text-center" lg="8" md="12">
+            <h2 className="title">
+              [신청중] 제2회 큰퀴즈 온더블럭
+            </h2>
+            <h4 className="description">
+              
+            </h4>
+          </Col>
+          
+          <Col sm="6" >
+              <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/et.png")}
+              style={{ width: "100%" }}/>
+          </Col>
+                
+        </Row>
+          <p data-ke-size="size16">&nbsp;</p>
+          <p data-ke-size="size16">&nbsp;</p>
+        <Row className="justify-content-md-center">
+          
+                
+          <Col className="text-center" lg="8" md="12">
+            <Button
+              className="btn-round"
+              color="info"
+              href="https://forms.gle/4r3kmYDb5YHEi8V97"
+              role="button"
+              size="lg"
+            >
+              큰퀴즈 신청 바로가기
+            </Button>
+          </Col>
+                
+        </Row>   
+      </Container>
+                
     </div>
 
 
