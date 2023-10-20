@@ -145,9 +145,10 @@ export default function Download() {
               src={require("assets/img/etc2.png")}
               style={{ width: "100%" }}/>
           </Col>
-  
+        </Row>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
+        <Row className="justify-content-md-center">
           <Col sm="6">
               <iframe width="100%" height="215px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
