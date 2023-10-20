@@ -51,20 +51,20 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              Challenge! 이뿌영_Day
+              [COMING SOON] 제2회 CHALLENGE! 이뿌영_DAY
             </h2>
             <h4 className="description">
               
             </h4>
           </Col>
           
-          <Col sm="6">
-              <UncontrolledCarousel
-                items={carouselItems3}
-                indicators={false}
-                autoPlay={false}
-              />
-            </Col>
+          <Col sm="6" >
+              <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/epost.png")}
+              style={{ width: "100%" }}/>
+          </Col>
         </Row>
 
         <p data-ke-size="size16">&nbsp;</p>
@@ -84,8 +84,11 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
                     
           <Col className="text-center" lg="8" md="12">
-              <Button className="btn-round" color="info" to="register-page" role="button"
-              size="lg" tag={Link}>
+              <Button className="btn-round"
+              color="info"
+              href="https://drive.google.com/drive/folders/1p7VLZ-NLcPivOHegMKoNBvGU48V1qIqB?usp=sharing"
+              role="button"
+              size="lg">
                 이뿌영 학습 영상 바로가기
               </Button>
           </Col>
