@@ -26,16 +26,8 @@ export default function Notifications() {
         <div className="space" />
         <h3>Notifications</h3>
         
-        <UncontrolledAlert className="alert-with-icon" color="primary">
-          <span data-notify="icon" className="tim-icons icon-trophy" />
-          <span>
-            <b>Challenge! 이뿌영_Day(feat. 뿅뿅!! 큰사오락실) -</b>
-            <p>일시: 10월 13일(금) 점심시간(4A, 4B), 11월 10일(금) 점심시간(4A, 4B)</p>
-            <p>대상: 전학년(선착순_상품소진시까지)</p>
-            <p>장소: 2층 레이크뷰 앞</p>
-            <p></p>
-          </span>
-        </UncontrolledAlert>
+        
+    
         <UncontrolledAlert className="alert-with-icon" color="success">
           <span data-notify="icon" className="tim-icons icon-bell-55" />
           <span>
@@ -61,6 +53,17 @@ export default function Notifications() {
             <p>일시: 11월 9일(목), EP1</p>
             <p>대상: 전학년</p>
             <p>장소: 갤럭시홀</p>
+          </span>
+        </UncontrolledAlert>
+
+        <UncontrolledAlert className="alert-with-icon" color="primary">
+          <span data-notify="icon" className="tim-icons icon-trophy" />
+          <span>
+            <b>challenge! 이뿌영_2nd Day(feat. 뿅뿅!! 큰사오락실) -</b>
+            <p>일시: 11월 10일(금) 점심시간(4A, 4B)</p>
+            <p>대상: 전학년(선착순_상품소진시까지)</p>
+            <p>장소: 2층 다산관 앞</p>
+            <p></p>
           </span>
         </UncontrolledAlert>
         
