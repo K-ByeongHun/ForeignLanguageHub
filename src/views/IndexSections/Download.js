@@ -222,7 +222,7 @@ export default function Download() {
               <img
               alt="..."
               className="img-raised"
-              src={require("assets/img/et.png")}
+              src={require("assets/img/cq.jpg")}
               style={{ width: "100%" }}/>
           </Col>
                 
