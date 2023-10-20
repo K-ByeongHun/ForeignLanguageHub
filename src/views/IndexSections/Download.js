@@ -149,6 +149,16 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
         <Row className="justify-content-md-center">
+          <Col lg="6">
+              <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+            </Col>
+        </Row>
+          <p data-ke-size="size16">&nbsp;</p>
+          <p data-ke-size="size16">&nbsp;</p>
+        <Row className="justify-content-md-center">
           <Col sm="6">
               <iframe width="100%" height="215px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
