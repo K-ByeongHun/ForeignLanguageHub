@@ -272,26 +272,28 @@ export default function Download() {
               
             </h4>
           </Col>
-          
+          <Col sm="6" >
+              <img
+              alt="..."
+              className="img-raised"
+              src={require("assets/img/jipost.png")}
+              style={{ width: "100%" }}/>
+          </Col>
           
                 
         </Row>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
         <Row className="justify-content-md-center">
-          
+
+          <Col sm="6">
+              <iframe width="100%" height="215px" src="" 
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+              </iframe>
+            </Col>      
                 
-          <Col className="text-center" lg="8" md="12">
-            <Button
-              className="btn-round"
-              color="info"
-              
-              role="button"
-              size="lg"
-            >
-              신청 바로가기
-            </Button>
-          </Col>
+          
                 
         </Row>   
       </Container>
