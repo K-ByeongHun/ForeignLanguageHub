@@ -1,4 +1,4 @@
-##충남삼성고등학교 외국어과 웹사이트
+##CNSA Foreign Language Department Website
 
 - G.A 외국어과 개발부 2023
 
