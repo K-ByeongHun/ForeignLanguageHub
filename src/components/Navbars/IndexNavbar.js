@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -125,13 +108,13 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://student.cnsa.hs.kr"
+                href="https://cnsa.riroschool.kr/"
                 rel="noopener noreferrer"
                 target="_blank"
                 title=""
               >
                 
-                <p className="d-lg-none d-xl-none">큰사넷 바로가기</p>
+                <p className="d-lg-none d-xl-none">리로스쿨 바로가기</p>
               </NavLink>
             </NavItem>
             
@@ -141,9 +124,9 @@ export default function IndexNavbar() {
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
-                href="https://student.cnsa.hs.kr"
+                href="https://cnsa.riroschool.kr/"
               >
-                <i className="tim-icons icon-spaceship" />CNSAnet 바로가기
+                <i className="tim-icons icon-spaceship" />리로스쿨 바로가기
               </Button>
             </NavItem>
             
