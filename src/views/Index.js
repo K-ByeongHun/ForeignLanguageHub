@@ -1,20 +1,3 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // core components
@@ -24,6 +7,7 @@ import Footer from "components/Footer/Footer.js";
 
 // sections for this page/view
 import Notifications from "views/IndexSections/Notifications.js";
+import ESC from "views/IndexSections/EnglishSpeakingChallenge";
 
 import Navbars from "views/IndexSections/Navbars.js";
 import Tabs from "views/IndexSections/Tabs.js";
@@ -101,9 +85,9 @@ export default function Index() {
         <div className="main">
           <Download />
           
-          <Notifications />
-          <Examples />
-          
+          {/* <Notifications />
+          <Examples /> */}
+          <ESC/>
           <JavaScript />
           <Navbars />
           <Tabs />
