@@ -2,6 +2,7 @@ import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col, UncontrolledTooltip, UncontrolledCarousel } from "reactstrap";
 import { Link } from "react-router-dom";
+import 'assets/css/new.css';
 
 export default function Download() {
   return (

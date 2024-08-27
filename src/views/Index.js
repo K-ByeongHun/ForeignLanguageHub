@@ -27,10 +27,7 @@ import Download from "views/IndexSections/Download.js";
 
 
 export default function Index() {
-  
 
-  
- 
   document.oncontextmenu = new Function ('return false'); //block right-click
   document.ondragstart = new Function ('return false'); //block drag and drop
   document.onselectstart = new Function ('return false'); //block text select

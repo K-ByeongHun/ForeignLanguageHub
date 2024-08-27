@@ -1,8 +1,9 @@
 import React from "react";
 // reactstrap components
 import { Button, Container, Row, Col} from "reactstrap";
+import 'assets/css/new.css';
 
-export default function Download() {
+export default function Bbooyoung() {
   return (
     <div className="section section-download"
       data-background-color="black"
