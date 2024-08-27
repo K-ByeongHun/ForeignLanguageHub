@@ -176,7 +176,7 @@ export default function Download() {
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
             <h2 className="title">
-              [COMING SOON] 중국어 일본어 문화탐방
+              [COMING SOON] 중 일 문화탐방
             </h2>
             <h4 className="description">
               

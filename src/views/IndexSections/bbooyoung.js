@@ -1,7 +1,6 @@
 import React from "react";
 // reactstrap components
-import { Button, Container, Row, Col, UncontrolledTooltip, UncontrolledCarousel } from "reactstrap";
-import { Link } from "react-router-dom";
+import { Button, Container, Row, Col} from "reactstrap";
 
 export default function Download() {
   return (

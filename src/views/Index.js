@@ -8,16 +8,18 @@ import Footer from "components/Footer/Footer.js";
 // sections for this page/view
 import Notifications from "views/IndexSections/Notifications.js";
 import ESC from "views/IndexSections/EnglishSpeakingChallenge";
+import EBY from "views/IndexSections/bbooyoung";
+import CJT from "views/IndexSections/ChinaJapanTravel";
 
 import Navbars from "views/IndexSections/Navbars.js";
-import Tabs from "views/IndexSections/Tabs.js";
+import WordGame from "views/IndexSections/WordGame";
 
 import Typography from "views/IndexSections/Typography.js";
-import JavaScript from "views/IndexSections/JavaScript.js";
+import Modals from "views/IndexSections/Modals";
 import NucleoIcons from "views/IndexSections/NucleoIcons.js";
 
 import Basics from "views/IndexSections/Basics.js";
-import Pagination from "views/IndexSections/Pagination.js";
+import Plan from "views/IndexSections/Plan";
 import Signup from "views/IndexSections/Signup.js";
 import Examples from "views/IndexSections/Examples.js";
 import Download from "views/IndexSections/Download.js";
@@ -68,7 +70,7 @@ export default function Index() {
     window.addEventListener('blur', detectDevTool);
   }
 
- 
+
   
   React.useEffect(() => {
     document.body.classList.toggle("index-page");
@@ -83,15 +85,17 @@ export default function Index() {
       <div className="wrapper">
         <PageHeader />
         <div className="main">
-          <Download />
+          {/* <Download /> */}
           
           {/* <Notifications />
           <Examples /> */}
+          <CJT/>
           <ESC/>
-          <JavaScript />
+          <EBY/>
+          <Modals />
           <Navbars />
-          <Tabs />
-          <Pagination />
+          <WordGame />
+          <Plan />
           <Typography />
         </div>
         <Footer />
