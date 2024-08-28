@@ -28,48 +28,6 @@ import Plan from "views/IndexSections/Plan";
 
 
 export default function Index() {
-
-  // document.oncontextmenu = new Function ('return false'); //block right-click
-  // document.ondragstart = new Function ('return false'); //block drag and drop
-  // document.onselectstart = new Function ('return false'); //block text select
-  document.body.style.MozUserSelect = 'none'; //block text select on miscellaneous browsers
-
-
-  document.addEventListener('keydown', function(event) {
-    if (event.keyCode === 123) {
-      event.preventDefault();
-    };
-  }, true);
-  
-  function detectDevTool(allow) {
-    if(isNaN(+allow)) allow = 100;
-    var start = +new Date(); 
-    debugger;
-    var end = +new Date(); 
-    if(isNaN(start) || isNaN(end) || end - start > allow) {
-      // 개발자 도구가 open 된것을 감지했을때 실행할 코드 삽입
-      document.location.href="https://www.tistory.com/"
-    }
-  }  
-
-  if(window.attachEvent) {
-    if (document.readyState === "complete" || document.readyState === "interactive") {
-        detectDevTool();
-      window.attachEvent('onresize', detectDevTool);
-      window.attachEvent('onmousemove', detectDevTool);
-      window.attachEvent('onfocus', detectDevTool);
-      window.attachEvent('onblur', detectDevTool);
-    } 
-  } else {
-    window.addEventListener('load', detectDevTool);
-    window.addEventListener('resize', detectDevTool);
-    window.addEventListener('mousemove', detectDevTool);
-    window.addEventListener('focus', detectDevTool);
-    window.addEventListener('blur', detectDevTool);
-  }
-
-
-  
   React.useEffect(() => {
     document.body.classList.toggle("index-page");
     // Specify how to clean up after this effect:
