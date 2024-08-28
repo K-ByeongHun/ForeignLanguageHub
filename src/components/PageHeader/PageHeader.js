@@ -23,7 +23,7 @@ export default function PageHeader() {
               Welcome to the CNSA Foreign Language Hub
             </h2>
             <h4 className="d-none d-sm-block">
-            You Can Taste a lot of Foreign Festivals in CNSA!
+            You Can Taste a lot of Foreign Language Festivals in CNSA!
             </h4>
           </div>
         </div>
