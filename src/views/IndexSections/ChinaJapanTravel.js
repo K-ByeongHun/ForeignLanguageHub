@@ -1,6 +1,6 @@
 import React from "react";
 // reactstrap components
-import { Button, Container, Row, Col} from "reactstrap";
+import { Container, Row, Col} from "reactstrap";
 import 'assets/css/new.css';
 
 export default function Download() {
@@ -12,7 +12,7 @@ export default function Download() {
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
               <h2 className="title">
-                [COMING SOON] 중 일 문화탐방
+                [2024.09.05 THU EP1] 중 일 문화탐방
               </h2>
               <h4 className="description">
                 
@@ -22,7 +22,7 @@ export default function Download() {
                 <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/jipost.png")}
+                src={require("assets/img/GA_China.jpg")}
                 style={{ width: "100%" }}/>
             </Col>
             
@@ -33,10 +33,9 @@ export default function Download() {
           <Row className="justify-content-md-center">
 
             <Col sm="6">
-                <iframe width="100%" height="215px" src="https://www.youtube.com/embed/neeHXnHma6M" 
+                <iframe width="100%" height="200%" src="https://www.youtube.com/embed/neeHXnHma6M" 
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-                </iframe>
+                    encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen title="video"/>
               </Col>      
           </Row>   
         </Container>

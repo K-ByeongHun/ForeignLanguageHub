@@ -66,6 +66,8 @@ export default function Typography() {
                 <span>3월~12월</span>
                 <p className="text-success">
                   영단어 암기 아보카도
+                  <br/>
+                  스파르타 보카
                 </p>
               </div>
             </Col>
