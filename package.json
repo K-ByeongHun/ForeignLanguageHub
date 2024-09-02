@@ -12,7 +12,7 @@
   "bugs": {
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
-  "homepage": "https://cnsa-fld.netlify.app",
+  "homepage": "https://K-ByeongHun.github.io/ForeignLanguageHub",
   "keywords": [
     "react",
     "reactjs",
@@ -38,15 +38,16 @@
     "bootstrap": "4.5.3",
     "chart.js": "2.9.4",
     "classnames": "2.3.1",
+    "gh-pages": "^6.1.1",
     "gulp": "4.0.2",
     "gulp-append-prepend": "1.0.9",
     "moment": "2.29.4",
     "nouislider": "14.6.3",
     "perfect-scrollbar": "1.5.5",
-    "react": "18.2.0",
+    "react": ">=16.8.0",
     "react-chartjs-2": "2.11.1",
     "react-datetime": "3.1.1",
-    "react-dom": "18.2.0",
+    "react-dom": ">=16.8.0",
     "react-router-dom": "5.2.0",
     "react-scripts": "5.0.1",
     "reactstrap": "8.7.1",
@@ -68,7 +69,9 @@
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "compile-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
-    "minify-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --style compressed"
+    "minify-sass": "sass src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --style compressed",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
