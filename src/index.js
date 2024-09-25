@@ -19,6 +19,7 @@ root.render(
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
       />
+      <Route path="*" render={() => <Redirect to="/" />} />
     </Switch>
   </BrowserRouter>
 );
