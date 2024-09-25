@@ -3,6 +3,7 @@ import React from "react";
 import { Button, Container, Row, Col, UncontrolledTooltip, UncontrolledCarousel } from "reactstrap";
 import { Link } from "react-router-dom";
 import 'assets/css/new.css';
+import 'views/IndexSections/button.css';
 
 export default function Download() {
   return (
@@ -29,6 +30,18 @@ export default function Download() {
               src={require("assets/img/etc2.png")}
               style={{ width: "100%" }}/>
           </Col>
+
+          <Col className="text-center" lg="8" md="12">
+              <Button
+                className="btn-hover color-3"
+                href="https://classroom.google.com/c/NzE3NDgzNzE1MDg1?cjc=x535slc"
+                role="button"
+                size="lg"
+              >
+                바로 영말챌 신청하러가기!!
+              </Button>
+          </Col>
+
         </Row>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
@@ -45,7 +58,7 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
         <Row className="justify-content-md-center">
           <Col sm="6">
-              <iframe width="100%" height="215px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
+              <iframe width="100%" height="315px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
               </iframe>
