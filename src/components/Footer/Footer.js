@@ -63,7 +63,7 @@ export default function Footer() {
             <Nav>
               <NavItem>
                   <NavLink href="">
-                    8기 안철민 제작
+                    8기 안철민,10기 강병훈 제작
                   </NavLink>
                 </NavItem>
             </Nav>
@@ -71,7 +71,7 @@ export default function Footer() {
         </Row>
       </Container>
 
-      <div className='copyright'>Copyrightⓒ 2023. Global Ambassador CNSA. All rights reserved.</div>
+      <div className='copyright'>Copyrightⓒ 2024. Global Ambassador CNSA. All rights reserved.</div>
 
     </footer>
   );
