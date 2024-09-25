@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Switch>
-      <Route exact path="/ForeignLanguageHub" render={(props) => <Index {...props} />} />
+      <Route exact path="/" render={(props) => <Index {...props} />} />
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
