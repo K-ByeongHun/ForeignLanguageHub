@@ -12,7 +12,7 @@ export default function Download() {
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
               <h2 className="title">
-                [2024.09.05 THU EP1] 중 일 문화탐방
+                [Coming Soon] 중 일 문화탐방
               </h2>
               <h4 className="description">
                 
