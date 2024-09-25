@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ForeignLanguageHub/static/css/main.5d57e38e.css",
+    "main.js": "/ForeignLanguageHub/static/js/main.77b11a53.js",
+    "static/media/p1.jpg": "/ForeignLanguageHub/static/media/p1.d17a6f07c5e14bae28b9.jpg",
+    "static/media/p4.jpg": "/ForeignLanguageHub/static/media/p4.3f3f51b41ed657d6246f.jpg",
+    "static/media/p3.jpg": "/ForeignLanguageHub/static/media/p3.5f2daca1cd31ddb8a0a8.jpg",
+    "static/media/p22.jpg": "/ForeignLanguageHub/static/media/p22.64fd2338fadc218107e9.jpg",
+    "static/media/GA_China.jpg": "/ForeignLanguageHub/static/media/GA_China.0f91cf89b13142fc6041.jpg",
+    "static/media/etc2.png": "/ForeignLanguageHub/static/media/etc2.9704888b58cec8732a1a.png",
+    "static/media/square4.png": "/ForeignLanguageHub/static/media/square4.b0072563cab16ef45d81.png",
+    "static/media/square1.png": "/ForeignLanguageHub/static/media/square1.082ea17aaf44aed9868a.png",
+    "static/media/square3.png": "/ForeignLanguageHub/static/media/square3.235ea41b7cee0696448d.png",
+    "static/media/square2.png": "/ForeignLanguageHub/static/media/square2.8ce0f9b6a9f216ada045.png",
+    "static/media/square5.png": "/ForeignLanguageHub/static/media/square5.16283001f5a086113265.png",
+    "static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/ForeignLanguageHub/static/media/darken-night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.049a2cd26a85856a45e6.png",
+    "static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png": "/ForeignLanguageHub/static/media/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.e6a30d27482b2b409f71.png",
+    "static/media/dots.png": "/ForeignLanguageHub/static/media/dots.1e305f981d41a2c30adb.png",
+    "static/media/path1.png": "/ForeignLanguageHub/static/media/path1.a0d20b6041dada5ed4fd.png",
+    "static/media/path4.png": "/ForeignLanguageHub/static/media/path4.cb1d9fab145d91e36846.png",
+    "static/media/path5.png": "/ForeignLanguageHub/static/media/path5.037b2fcefee2867cd2f5.png",
+    "static/media/path3.png": "/ForeignLanguageHub/static/media/path3.3f66cc18d0e5e2526eb2.png",
+    "static/media/nucleo.eot": "/ForeignLanguageHub/static/media/nucleo.bd5cce8bf40be5947637.eot",
+    "static/media/nucleo.ttf": "/ForeignLanguageHub/static/media/nucleo.35b08447277ca7bf9f09.ttf",
+    "static/media/nucleo.woff": "/ForeignLanguageHub/static/media/nucleo.5c65ef4d6434bb8062a3.woff",
+    "static/media/nucleo.woff2": "/ForeignLanguageHub/static/media/nucleo.6dfb4833e3a0132fd1fc.woff2",
+    "index.html": "/ForeignLanguageHub/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5d57e38e.css",
+    "static/js/main.77b11a53.js"
+  ]
+}
