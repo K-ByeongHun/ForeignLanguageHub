@@ -12,7 +12,7 @@ import RegisterPage from "views/examples/RegisterPage.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename="/ForeignLanguageHub">
     <Switch>
       <Route exact path="/" render={(props) => <Index {...props} />} />
       <Route
