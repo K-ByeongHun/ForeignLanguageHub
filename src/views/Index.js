@@ -9,14 +9,14 @@ import Footer from "components/Footer/Footer.js";
 
 // import Notifications from "views/IndexSections/Notifications.js";
 import ESC from "views/IndexSections/EnglishSpeakingChallenge";
-// import EBY from "views/IndexSections/bbooyoung";
+import EBY from "views/IndexSections/bbooyoung";
 import CJT from "views/IndexSections/ChinaJapanTravel";
 
 import Navbars from "views/IndexSections/Navbars.js";
 import WordGame from "views/IndexSections/WordGame";
 
 import Typography from "views/IndexSections/Typography.js";
-// import Modals from "views/IndexSections/Modals";
+import Modals from "views/IndexSections/Modals";
 // import NucleoIcons from "views/IndexSections/NucleoIcons.js";
 
 // import Basics from "views/IndexSections/Basics.js";
@@ -48,7 +48,7 @@ export default function Index() {
           <ESC/>
           <CJT/>
           {/* <EBY/> */}
-          {/* <Modals /> */}
+          <Modals />
           <Navbars />
           <WordGame />
           <Plan />
