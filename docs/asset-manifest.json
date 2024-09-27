@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ForeignLanguageHub/static/css/main.5d57e38e.css",
-    "main.js": "/ForeignLanguageHub/static/js/main.a00f7c6b.js",
+    "main.js": "/ForeignLanguageHub/static/js/main.bc951738.js",
     "static/media/mark-finn.jpg": "/ForeignLanguageHub/static/media/mark-finn.ab855e403fb68a209eea.jpg",
     "static/media/p1.jpg": "/ForeignLanguageHub/static/media/p1.d17a6f07c5e14bae28b9.jpg",
     "static/media/fabien-bazanegue.jpg": "/ForeignLanguageHub/static/media/fabien-bazanegue.1b3b0c8bfa29eb7cf64f.jpg",
@@ -37,6 +37,6 @@
   },
   "entrypoints": [
     "static/css/main.5d57e38e.css",
-    "static/js/main.a00f7c6b.js"
+    "static/js/main.bc951738.js"
   ]
 }
