@@ -15,9 +15,8 @@ export default function Download() {
       <Container>
         <Row className="justify-content-md-center">
           <Col className="text-center" lg="8" md="12">
-            <h2 className="title">Event Is Coming!!</h2>
             <h2 className="title">
-              [2024.10.31 EP1]2024 제2회 영어 말하기 Challenge
+              [Now Open]2024 제2회 영어 말하기 Challenge[2024.10.31 EP1]
             </h2>
             <h4 className="description">
               
