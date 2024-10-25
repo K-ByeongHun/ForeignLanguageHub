@@ -45,19 +45,20 @@ export default function Download() {
         </Row>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
+          <p className="font">영어 말하기 챌린지 안내영상! [참여시 필수시청!!]</p>
         <Row className="justify-content-md-center">
-          <Col lg="6">
+          <Col className="video">
               <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
                 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                 encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>   
               </iframe>       
               {/* 영어말하기 챌린지 유튜브 영상 */}
-            </Col>
+          </Col>
         </Row>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
         <Row className="justify-content-md-center">
-          <Col sm="6">
+          <Col className="video">
               <iframe width="100%" height="315px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
                   frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                   encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
@@ -68,7 +69,7 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
                     
-          <Col className="text-center" lg="8" md="12">
+          <Col className="text-center" lg="8">
             <Button
               className="btn-round"
               color="info"

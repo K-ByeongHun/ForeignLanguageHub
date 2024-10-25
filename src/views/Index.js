@@ -46,7 +46,7 @@ export default function Index() {
           {/* <Notifications />
           <Examples /> */}
           <ESC/>
-          <CJT/>
+          {/* <CJT/> */}
           {/* <EBY/> */}
           <Modals />
           <Navbars />

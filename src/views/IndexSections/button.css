@@ -38,3 +38,8 @@
   background-image: linear-gradient(to right, #4c67e4, #833acd, #4c67e4, #833acd);
   box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
 }
+
+.font{
+  font-size: large;
+  font-weight: bold;
+}
