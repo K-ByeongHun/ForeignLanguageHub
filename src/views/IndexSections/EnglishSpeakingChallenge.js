@@ -43,9 +43,11 @@ export default function Download() {
           </Col>
 
         </Row>
+
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <p className="font">영어 말하기 챌린지 안내영상! [참여시 필수시청!!]</p>
+
         <Row className="justify-content-md-center">
           <Col className="video">
               <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
@@ -55,20 +57,25 @@ export default function Download() {
               {/* 영어말하기 챌린지 유튜브 영상 */}
           </Col>
         </Row>
+
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
+
         <Row className="justify-content-md-center">
           <Col className="video">
-            <iframe width="100%" height="315px" src="https://www.youtube.com/embed/YtMzgLKVI8Q?si=J__AdOUcs-tt9UlC" title="YouTube video player" 
-                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-            </iframe>
+          <iframe width="100%" height="315px" src="https://www.youtube.com/embed/Nf4D5o6WkYc" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>   
+              </iframe>
               {/* 영어말하기 챌린지 안내영상 */}
           </Col>
+
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
-          <p data-ke-size="size16">&nbsp;</p>
-                    
+          
+
+          <br/>
+          
           <Col className="text-center" lg="8">
             <Button
               className="btn-round"
