@@ -73,10 +73,10 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           
-
+  
           <br/>
 
-          <Col className="text-center" lg="8">
+          {/* <Col className="text-center" lg="8">
             <Button
               className="btn-round"
               color="info"
@@ -86,7 +86,7 @@ export default function Download() {
             >
               영말챌 연습문제 바로가기
             </Button>
-          </Col>
+          </Col> */}
                 
           {/* <Col className="text-center" lg="8" md="12">
             <Button
