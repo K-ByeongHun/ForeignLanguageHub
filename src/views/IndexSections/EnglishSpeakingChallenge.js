@@ -59,12 +59,12 @@ export default function Download() {
           <p data-ke-size="size16">&nbsp;</p>
         <Row className="justify-content-md-center">
           <Col className="video">
-              <iframe width="100%" height="315px" src="https://www.youtube.com/embed/WQWqXZ07Vrg" 
-                  frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                  encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-              </iframe>
+            <iframe width="100%" height="315px" src="https://www.youtube.com/embed/YtMzgLKVI8Q?si=J__AdOUcs-tt9UlC" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
               {/* 영어말하기 챌린지 안내영상 */}
-            </Col>
+          </Col>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
           <p data-ke-size="size16">&nbsp;</p>
